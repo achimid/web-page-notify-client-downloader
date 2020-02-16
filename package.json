@@ -1,0 +1,26 @@
+{
+  "name": "web-page-notify-client-downloader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achimid/web-page-notify-client-downloader.git"
+  },
+  "author": "achimid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/achimid/web-page-notify-client-downloader/issues"
+  },
+  "homepage": "https://github.com/achimid/web-page-notify-client-downloader#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-notifier": "^6.0.0",
+    "node-telegram-bot-api": "^0.40.0",
+    "socket.io-client": "^2.3.0",
+    "webtorrent": "^0.107.17"
+  }
+}
