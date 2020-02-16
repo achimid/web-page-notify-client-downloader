@@ -17,10 +17,10 @@ socket.on('connect', () => console.info('Socket conectado ao servidor'))
 
 socket.on('disconnect', () => console.info('Socket desconectado do servidor'))
 
-socket.on('client_download', (data) => startDownload(data.downloadUrl))
+socket.on('client_download', (data) => startDownload(data.url))
 
 
-const startDownload = ({magnetURI}) => {
+const startDownload = (magnetURI) => {
     if (!magnetURI) return
     
     client.add(magnetURI, (torrent) => {
