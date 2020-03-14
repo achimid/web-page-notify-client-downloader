@@ -1,7 +1,7 @@
 require('dotenv').config()
 
-const SERVER_URL = process.env.SERVER_URL || 'http://localhost:9001'
-const DOWNLOAD_FOLDER = process.env.DOWNLOAD_FOLDER ||'$HOME'
+const SERVER_URL = process.env.SERVER_URL
+const DOWNLOAD_FOLDER = process.env.DOWNLOAD_FOLDER
 
 const socket = require('socket.io-client')(SERVER_URL);
 const notifier = require('node-notifier');
