@@ -2,6 +2,7 @@ require('dotenv').config()
 
 const SERVER_URL = process.env.SERVER_URL
 const DOWNLOAD_FOLDER = process.env.DOWNLOAD_FOLDER
+const ACCOUNT = process.env.ACCOUNT || 'client_download'
 
 const socket = require('socket.io-client')(SERVER_URL);
 const notifier = require('node-notifier');
@@ -17,7 +18,7 @@ socket.on('connect', () => console.info('Socket conectado ao servidor'))
 
 socket.on('disconnect', () => console.info('Socket desconectado do servidor'))
 
-socket.on('client_download', (data) => startDownload(data.url))
+socket.on(ACCOUNT, (data) => startDownload(data.url))
 
 
 const startDownload = (magnetURI) => {
