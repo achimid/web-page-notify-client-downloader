@@ -7,7 +7,7 @@ const ACCOUNT = process.env.ACCOUNT || 'client_download'
 const socket = require('socket.io-client')(SERVER_URL);
 const notifier = require('node-notifier');
 
-const fs = require('fs')
+const mv = require('mv');
 const rimraf = require("rimraf");
 
 const WebTorrent = require('webtorrent')
@@ -24,24 +24,31 @@ socket.on(ACCOUNT, (data) => startDownload(data.url))
 const startDownload = (magnetURI) => {
     if (!magnetURI) return
     
-    client.add(magnetURI, (torrent) => {
-        const obj = { client, torrent, pathNew: DOWNLOAD_FOLDER }
-        startProgressLog(obj)
-            .then(onStartDownload)
-            .then(whenTorrentDone)
-            .then(onFinishDownload)
-            .then(moveFileFromFileSystem)
-            .then(removeTorrentFromClient)
-            .then(removeFileFromFileSystem)
-            .then(stopProgressLog)
-            .catch((err) => console.error('Erro ao efetuar download', err))
-    
-    })
+    try {
+        client.add(magnetURI, (torrent) => {
+            const obj = { client, torrent, pathNew: DOWNLOAD_FOLDER }
+            startProgressLog(obj)
+                .then(onStartDownload)
+                .then(whenTorrentDone)
+                .then(onFinishDownload)
+                .then(moveFileFromFileSystem)
+                .then(removeTorrentFromClient)
+                .then(removeFileFromFileSystem)
+                .then(stopProgressLog)
+                .catch((err) => console.error('Erro ao efetuar download', err))
+        
+        })
+    } catch (error) {
+        console.error("Erro ao adicionar Download link", error)
+    }
 }
+
 
 const moveFileFromFileSystem = (wrapObj) => new Promise((resolve, reject) => {
     console.info('Movendo arquivos...')
-    fs.rename(wrapObj.torrent.path, wrapObj.pathNew + wrapObj.torrent.infoHash, (err) => err ?  reject(err) : resolve(wrapObj))
+    const source = wrapObj.torrent.path + '/' + wrapObj.torrent.name
+    const dest = wrapObj.pathNew + wrapObj.torrent.name
+    mv(source, dest, (err) => err ?  reject(err) : resolve(wrapObj))
 })
 
 const removeTorrentFromClient = (wrapObj) => new Promise((resolve, reject) => {
