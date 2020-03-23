@@ -1,0 +1,348 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 848
+PlayResY: 480
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_33941_387_Magic_Training,Open Sans Semibold,30,&H00344751,&H000000FF,&H0087B2CF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,260,1
+Style: sign_5067_39_Episode_2_____Ma,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H4B4E4948,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,593,40,87,1
+Style: sign_3130_5_Episode_5__A_Hin,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H4B4E4948,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,567,40,87,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:19.72,0:00:21.03,main,Taichi,0000,0000,0000,Não é isso ...
+Dialogue: 0,0:00:26.80,0:00:27.98,main,Lemiya,0000,0000,0000,To entrando.
+Dialogue: 0,0:00:29.91,0:00:31.42,main,Lemiya,0000,0000,0000,Você está acordado?
+Dialogue: 0,0:00:31.42,0:00:34.87,main,Taichi,0000,0000,0000,<i>Lemiya?</i> <b>Lemiya?</b> <i>Why am I back at your place?</i> <b>Por que estou de volta à sua casa?</b>
+Dialogue: 0,0:02:10.52,0:02:14.69,sign_3130_5_Episode_5__A_Hin,Screen,0000,0000,0000,Episódio 5 Uma dica de esquemas
+Dialogue: 0,0:02:10.76,0:02:14.20,top,Taichi,0000,0000,0000,Cara, eu estou cheio!
+Dialogue: 0,0:02:14.20,0:02:16.36,top,Taichi,0000,0000,0000,Obrigado pela refeição!
+Dialogue: 0,0:02:16.92,0:02:19.57,main,Lemiya,0000,0000,0000,Você facilmente comeu o suficiente para cinco pessoas.
+Dialogue: 0,0:02:19.57,0:02:20.89,main,Taichi,0000,0000,0000,Muito?!
+Dialogue: 0,0:02:20.89,0:02:23.07,main,Taichi,0000,0000,0000,Eu sabia que estava comendo mais do que o habitual,
+Dialogue: 0,0:02:23.07,0:02:24.62,main,Taichi,0000,0000,0000,mas eu não sabia que era tão ruim assim.
+Dialogue: 0,0:02:24.62,0:02:29.75,main,Lemiya,0000,0000,0000,A razão pela qual você conseguiu comer tanto também está relacionada ao motivo de estar aqui.
+Dialogue: 0,0:02:34.63,0:02:36.07,main,,0000,0000,0000,Longa história curta...
+Dialogue: 0,0:02:38.77,0:02:43.43,main,,0000,0000,0000,Taichi, você esgotou seu poder mágico e caiu em coma.
+Dialogue: 0,0:02:43.83,0:02:44.93,main,Taichi,0000,0000,0000,Hã?
+Dialogue: 0,0:02:44.93,0:02:48.12,main,Lemiya,0000,0000,0000,Você consumiu todo o poder mágico dentro do seu corpo.
+Dialogue: 0,0:02:48.12,0:02:50.62,main,Lemiya,0000,0000,0000,Você dormiu por uma semana inteira.
+Dialogue: 0,0:02:50.62,0:02:51.80,main,Taichi,0000,0000,0000,Uma semana inteira?!
+Dialogue: 0,0:02:51.80,0:02:54.79,main,Lemiya,0000,0000,0000,Geralmente, você pode recuperar o poder mágico gasto da noite para o dia.
+Dialogue: 0,0:02:55.35,0:03:01.32,main,Lemiya,0000,0000,0000,Mas quando é completamente gasto, leva um tempo significativo para se regenerar do zero.
+Dialogue: 0,0:03:01.32,0:03:03.49,main,Taichi,0000,0000,0000,Eu não sabia
+Dialogue: 0,0:03:03.49,0:03:08.69,main,Lemiya,0000,0000,0000,Rin e Myura assumiram que você desmaiou de exaustão e lesão no início.
+Dialogue: 0,0:03:08.69,0:03:12.07,main,Lemiya,0000,0000,0000,Eles pediram que um médico olhasse para você, com certeza, e acreditavam no mesmo.
+Dialogue: 0,0:03:12.87,0:03:16.67,main,Lemiya,0000,0000,0000,No entanto, um dia e depois outro passou ...
+Dialogue: 0,0:03:17.59,0:03:20.51,main,Lemiya,0000,0000,0000,Na terceira noite, eles não aguentavam mais
+Dialogue: 0,0:03:20.51,0:03:24.43,main,,0000,0000,0000,e carregou seu corpo inconsciente de volta aqui.
+Dialogue: 0,0:03:26.98,0:03:30.17,main,Lemiya,0000,0000,0000,Eu nunca vi esses dois pânico assim.
+Dialogue: 0,0:03:30.17,0:03:33.44,main,Lemiya,0000,0000,0000,Ambos estão olhando para algo na cidade agora.
+Dialogue: 0,0:03:33.44,0:03:35.15,main,Lemiya,0000,0000,0000,Não se esqueça de agradecê-los quando voltarem.
+Dialogue: 0,0:03:35.52,0:03:36.94,main,Taichi,0000,0000,0000,Sim, claro que sim.
+Dialogue: 0,0:03:37.49,0:03:38.84,main,Taichi,0000,0000,0000,Além disso, Lemiya ...
+Dialogue: 0,0:03:40.28,0:03:41.40,main,Taichi,0000,0000,0000,Obrigado também.
+Dialogue: 0,0:03:43.00,0:03:44.49,main,Lemiya,0000,0000,0000,Não se preocupe com isso.
+Dialogue: 0,0:03:46.07,0:03:48.16,main,Lemiya,0000,0000,0000,Na mesma nota, Taichi ...
+Dialogue: 0,0:03:48.85,0:03:51.02,main,Lemiya,0000,0000,0000,O que aconteceu no mundo na floresta do norte?
+Dialogue: 0,0:03:58.37,0:03:59.47,main,Lemiya,0000,0000,0000,Eu sabia.
+Dialogue: 0,0:03:59.47,0:04:01.63,main,Lemiya,0000,0000,0000,Esse foi o Pacto Carmesim.
+Dialogue: 0,0:04:02.47,0:04:04.30,main,Taichi,0000,0000,0000,Pacto Carmesim?
+Dialogue: 0,0:04:04.30,0:04:07.44,main,Lemiya,0000,0000,0000,É mágica que usa o sangue de homens e animais.
+Dialogue: 0,0:04:07.44,0:04:11.23,main,Lemiya,0000,0000,0000,É considerado magia proibida agora devido à sua crueldade.
+Dialogue: 0,0:04:12.99,0:04:15.93,main,Lemiya,0000,0000,0000,Alimente um orbe imbuído dessa magia a alguém,
+Dialogue: 0,0:04:15.93,0:04:19.46,main,,0000,0000,0000,e extrairá várias dezenas de vezes o seu poder mágico normal.
+Dialogue: 0,0:04:20.51,0:04:22.92,main,Taichi,0000,0000,0000,Eu não conseguia nem entalhar isso.
+Dialogue: 0,0:04:22.92,0:04:26.66,main,Taichi,0000,0000,0000,Para ser sincero, pensei que realmente seria um caso perdido dessa vez.
+Dialogue: 0,0:04:27.60,0:04:29.83,main,Taichi,0000,0000,0000,Mas então naquele momento ...
+Dialogue: 0,0:04:30.50,0:04:32.34,flashback,Aerial,0000,0000,0000,Meu nome é Aérea.
+Dialogue: 0,0:04:32.94,0:04:34.54,flashback,Aerial,0000,0000,0000,Eu sou o Espírito do Vento.
+Dialogue: 0,0:04:35.89,0:04:37.58,main,Lemiya,0000,0000,0000,Aéreo?!
+Dialogue: 0,0:04:39.03,0:04:41.30,main,Lemiya,0000,0000,0000,Você tem certeza de que foi o que a voz lhe disse ?!
+Dialogue: 0,0:04:41.78,0:04:43.88,main,Taichi,0000,0000,0000,Y-Sim?
+Dialogue: 0,0:04:46.08,0:04:47.78,main,Lemiya,0000,0000,0000,Como isso pode ser?
+Dialogue: 0,0:04:48.72,0:04:50.26,main,Lemiya,0000,0000,0000,Eu não acredito nisso.
+Dialogue: 0,0:04:50.54,0:04:52.24,main,Taichi,0000,0000,0000,Ei, Lemiya ...
+Dialogue: 0,0:04:52.24,0:04:55.19,main,Taichi,0000,0000,0000,Você poderia me explicar para que eu também possa entender?
+Dialogue: 0,0:04:55.89,0:04:58.72,main,Lemiya,0000,0000,0000,Taichi, você se lembra como eu te disse
+Dialogue: 0,0:04:58.72,0:05:02.76,main,,0000,0000,0000,que você é um mágico único que usa feitiçaria, não mágica, certo?
+Dialogue: 0,0:05:02.76,0:05:04.84,main,Lemiya,0000,0000,0000,E que não sabíamos que tipo você era?
+Dialogue: 0,0:05:05.25,0:05:06.51,main,Taichi,0000,0000,0000,Sim?
+Dialogue: 0,0:05:06.51,0:05:08.37,main,Lemiya,0000,0000,0000,Bem, agora está claro.
+Dialogue: 0,0:05:09.09,0:05:10.53,main,Taichi,0000,0000,0000,Seriamente?
+Dialogue: 0,0:05:10.92,0:05:14.75,main,Lemiya,0000,0000,0000,<i>Listen carefully, Taichi.</i> <b>Ouça com atenção, Taichi.</b> <i>You&#39;re a—</i> <b>Você é um-</b>
+Dialogue: 0,0:05:19.73,0:05:21.17,main,Lodra,0000,0000,0000,Oh?
+Dialogue: 0,0:05:21.17,0:05:25.84,main,Lodra,0000,0000,0000,Ele eliminou o Elemental Vermelho com apenas o poder do vento?
+Dialogue: 0,0:05:25.84,0:05:29.22,main,Lodra,0000,0000,0000,Aquele jovem é realmente intrigante.
+Dialogue: 0,0:05:30.00,0:05:34.39,main,Lodra,0000,0000,0000,Valeu a pena o ótimo preço que você pagou, Cassim.
+Dialogue: 0,0:05:35.65,0:05:39.92,main,Lodra,0000,0000,0000,Agora, tenho outro trabalho para você fazer.
+Dialogue: 0,0:05:39.92,0:05:43.03,main,Lodra,0000,0000,0000,<i>What?</i> <b>O que?</b> <i>It&#39;s just a little prank.</i> <b>É apenas uma brincadeira.</b>
+Dialogue: 0,0:05:43.03,0:05:47.72,main,Lodra,0000,0000,0000,Um assunto trivial sem importância estratégica.
+Dialogue: 0,0:05:47.72,0:05:50.74,main,Lodra,0000,0000,0000,Embora eu ache que isso alivie um pouco sua indignação.
+Dialogue: 0,0:05:52.37,0:05:53.51,main,Lodra,0000,0000,0000,Hmm...
+Dialogue: 0,0:05:56.80,0:06:00.15,main,Lodra,0000,0000,0000,As rédeas dela não estão um pouco soltas?
+Dialogue: 0,0:06:00.96,0:06:04.09,main,Cassim,0000,0000,0000,Mas acho que ela teve um desempenho adequado para o seu salário.
+Dialogue: 0,0:06:04.09,0:06:08.97,main,Lodra,0000,0000,0000,E estou lhe dizendo que isso não é suficiente.
+Dialogue: 0,0:06:19.10,0:06:24.67,main,Lodra,0000,0000,0000,Precisamos que você continue servindo como peão de Cassim,
+Dialogue: 0,0:06:24.67,0:06:27.24,main,,0000,0000,0000,então eu fiz algumas pequenas modificações.
+Dialogue: 0,0:06:31.52,0:06:34.73,main,Lodra,0000,0000,0000,Lembre-se, o que está prestes a começar é apenas o nosso primeiro passo.
+Dialogue: 0,0:06:34.73,0:06:38.79,main,Lodra,0000,0000,0000,O grande primeiro passo para alcançar nosso objetivo.
+Dialogue: 0,0:06:39.33,0:06:41.85,main,Cassim,0000,0000,0000,Eu entendo, Vossa Eminência.
+Dialogue: 0,0:06:44.40,0:06:46.73,main,Milo,0000,0000,0000,Estou farto de esperar.
+Dialogue: 0,0:06:46.73,0:06:49.08,main,Melo,0000,0000,0000,Vamos nos apressar e começar o carnaval.
+Dialogue: 0,0:06:49.56,0:06:53.42,main,Lodra,0000,0000,0000,Nesse caso, suponho que é hora do carnaval começar.
+Dialogue: 0,0:06:53.42,0:06:56.30,main,Lodra,0000,0000,0000,Teremos que lhe enviar um convite.
+Dialogue: 0,0:07:04.15,0:07:07.28,main,Taichi,0000,0000,0000,Invocador, não é?
+Dialogue: 0,0:07:08.08,0:07:10.08,flashback,Lemiya,0000,0000,0000,Ouça com atenção, Taichi.
+Dialogue: 0,0:07:10.08,0:07:13.20,flashback,,0000,0000,0000,Você é um invocador.
+Dialogue: 0,0:07:13.65,0:07:15.66,flashback,Taichi,0000,0000,0000,Um Invocador?
+Dialogue: 0,0:07:15.66,0:07:18.50,flashback,Lemiya,0000,0000,0000,Um xamã seria mais parecido com ele.
+Dialogue: 0,0:07:19.00,0:07:21.37,flashback,Lemiya,0000,0000,0000,Você faz pactos com espíritos específicos,
+Dialogue: 0,0:07:21.37,0:07:25.72,flashback,,0000,0000,0000,e você tem o direito de usar uma magia mais forte com base no seu vínculo com eles.
+Dialogue: 0,0:07:26.45,0:07:30.17,flashback,Lemiya,0000,0000,0000,Xamãs e Invocadores são os mesmos a esse respeito.
+Dialogue: 0,0:07:30.17,0:07:33.27,flashback,Lemiya,0000,0000,0000,Agora, você pode dizer o que realmente separa os dois?
+Dialogue: 0,0:07:34.68,0:07:36.44,flashback,Lemiya,0000,0000,0000,É simples.
+Dialogue: 0,0:07:36.44,0:07:38.99,flashback,Lemiya,0000,0000,0000,É se eles podem ou não ouvi-los.
+Dialogue: 0,0:07:38.99,0:07:41.30,flashback,Lemiya,0000,0000,0000,Se eles podem ou não vê-los.
+Dialogue: 0,0:07:42.30,0:07:45.80,flashback,Lemiya,0000,0000,0000,Em nosso mundo, os espíritos são uma ordem superior de ser.
+Dialogue: 0,0:07:46.40,0:07:50.09,flashback,Lemiya,0000,0000,0000,Eles estão acima dos dragões, que são superiores aos humanos.
+Dialogue: 0,0:07:50.66,0:07:54.11,flashback,Lemiya,0000,0000,0000,Por isso, são fundamentalmente invisíveis para nós.
+Dialogue: 0,0:07:54.72,0:07:57.98,flashback,Lemiya,0000,0000,0000,Então, se você ouviu a voz de um espírito,
+Dialogue: 0,0:07:58.44,0:08:00.29,flashback,Lemiya,0000,0000,0000,então é quase garantido.
+Dialogue: 0,0:08:01.71,0:08:03.82,flashback,Lemiya,0000,0000,0000,Além disso, há mais uma coisa
+Dialogue: 0,0:08:03.82,0:08:07.88,flashback,,0000,0000,0000,isso torna os Invocadores diferentes de outros mágicos e xamãs.
+Dialogue: 0,0:08:08.53,0:08:13.51,flashback,Lemiya,0000,0000,0000,Esse é o fato de que os espíritos executam magia em nome do feiticeiro.
+Dialogue: 0,0:08:14.84,0:08:18.72,flashback,Lemiya,0000,0000,0000,Como a mágica não usa o feiticeiro como catalisador,
+Dialogue: 0,0:08:18.72,0:08:21.72,flashback,,0000,0000,0000,é liberado com a força total e inabalável do espírito.
+Dialogue: 0,0:08:23.54,0:08:26.27,main,Taichi,0000,0000,0000,Isso não poderia parecer mais trapaça.
+Dialogue: 0,0:08:27.14,0:08:30.23,italics,Taichi,0000,0000,0000,Mas se a voz que ouvi realmente era um espírito ...
+Dialogue: 0,0:08:30.87,0:08:32.09,main,Almeda,0000,0000,0000,Taichi!
+Dialogue: 0,0:08:32.61,0:08:33.80,main,Taichi,0000,0000,0000,Almeda.
+Dialogue: 0,0:08:33.80,0:08:35.87,main,Almeda,0000,0000,0000,Você está bem agora?
+Dialogue: 0,0:08:35.87,0:08:40.09,main,Almeda,0000,0000,0000,Rin e Myura disseram que você não estava acordando, então fiquei preocupado.
+Dialogue: 0,0:08:40.09,0:08:41.90,main,Taichi,0000,0000,0000,Sim, eu estou bem agora.
+Dialogue: 0,0:08:41.90,0:08:44.12,main,Almeda,0000,0000,0000,<i>That&#39;s great.</i> <b>Isso é ótimo.</b> <i>What a relief.</i> <b>Que alivio.</b>
+Dialogue: 0,0:08:44.12,0:08:46.06,main,Taichi,0000,0000,0000,Desculpe incomodá-lo.
+Dialogue: 0,0:08:46.48,0:08:50.00,main,Taichi,0000,0000,0000,A propósito, você sabe quando Rin e Myura devem estar de volta aqui?
+Dialogue: 0,0:08:50.00,0:08:52.11,main,Almeda,0000,0000,0000,Desculpe, eu não ouvi.
+Dialogue: 0,0:08:52.11,0:08:54.93,main,Almeda,0000,0000,0000,Eles não voltaram desde que saíram cedo nesta manhã.
+Dialogue: 0,0:08:54.93,0:08:56.87,main,Taichi,0000,0000,0000,<i>I see.</i> <b>Entendo.</b> <i>Thanks.</i> <b>Obrigado.</b>
+Dialogue: 0,0:08:57.72,0:08:59.85,main,Taichi,0000,0000,0000,Vou procurá-los lá fora, então.
+Dialogue: 0,0:08:59.85,0:09:01.37,main,Almeda,0000,0000,0000,Cuidar.
+Dialogue: 0,0:09:01.37,0:09:03.21,main,Almeda,0000,0000,0000,Não se esforce, ok?
+Dialogue: 0,0:09:08.20,0:09:11.20,main,Taichi,0000,0000,0000,Agora, onde esses dois teriam ido?
+Dialogue: 0,0:09:11.20,0:09:12.57,main,Anastasia,0000,0000,0000,Solte-me!
+Dialogue: 0,0:09:12.57,0:09:16.28,main,Anastasia,0000,0000,0000,Desculpe, mas não tenho tempo para lidar com vocês.
+Dialogue: 0,0:09:16.28,0:09:18.20,main,Man,0000,0000,0000,Não diga isso, senhora.
+Dialogue: 0,0:09:18.20,0:09:21.60,main,Man,0000,0000,0000,<i>That&#39;s right!</i> <b>Está certo!</b> <i>What&#39;s wrong with spending some time with us?</i> <b>O que há de errado em passar algum tempo conosco?</b>
+Dialogue: 0,0:09:21.60,0:09:22.84,main,Taichi,0000,0000,0000,Esses caras!
+Dialogue: 0,0:09:21.60,0:09:23.79,top,Man,0000,0000,0000,Dada a sua fantasia, você também quer, certo?
+Dialogue: 0,0:09:23.79,0:09:25.06,top,Man,0000,0000,0000,Sim, está certo!
+Dialogue: 0,0:09:24.09,0:09:26.90,main,Taichi,0000,0000,0000,Ei, você precisa cortá-lo já!
+Dialogue: 0,0:09:27.84,0:09:29.79,main,Anastasia,0000,0000,0000,Eita, você está atrasado!
+Dialogue: 0,0:09:33.40,0:09:35.32,main,Taichi,0000,0000,0000,<i>Huh?</i> <b>Hã?</b> <i>Uh?</i> <b>Uh?</b>
+Dialogue: 0,0:09:35.32,0:09:37.09,main,Anastasia,0000,0000,0000,Você fez uma promessa, não fez?
+Dialogue: 0,0:09:37.86,0:09:41.01,main,Anastasia,0000,0000,0000,Que você me deixaria acordada a noite toda.
+Dialogue: 0,0:09:42.10,0:09:43.24,main,Man,0000,0000,0000,Ei, pirralho!
+Dialogue: 0,0:09:43.24,0:09:45.98,main,Man,0000,0000,0000,Não apareça do nada e se intrometa em nós!
+Dialogue: 0,0:09:46.35,0:09:47.36,main,Man,0000,0000,0000,Está certo!
+Dialogue: 0,0:09:47.36,0:09:48.77,main,Man,0000,0000,0000,Não interfira!
+Dialogue: 0,0:09:55.92,0:09:58.95,main,Taichi,0000,0000,0000,O que houve em aparecer do nada?
+Dialogue: 0,0:10:00.48,0:10:01.61,main,Man,0000,0000,0000,Levante-se!
+Dialogue: 0,0:10:01.61,0:10:02.97,main,Man,0000,0000,0000,Vamos vencê-lo!
+Dialogue: 0,0:10:03.60,0:10:06.03,main,Anastasia,0000,0000,0000,Obrigado por me salvar.
+Dialogue: 0,0:10:06.03,0:10:07.08,main,Taichi,0000,0000,0000,Eu fiz?
+Dialogue: 0,0:10:07.08,0:10:10.12,main,Taichi,0000,0000,0000,Pareceu-me que você poderia ter lidado com isso sozinho.
+Dialogue: 0,0:10:10.12,0:10:11.13,main,Anastasia,0000,0000,0000,Hã?
+Dialogue: 0,0:10:11.13,0:10:13.82,main,Taichi,0000,0000,0000,Quando aquele cara te agarrou,
+Dialogue: 0,0:10:13.82,0:10:17.01,main,,0000,0000,0000,parecia que você acabou de se libertar, em vez de quebrar a força dele com força.
+Dialogue: 0,0:10:17.58,0:10:20.74,main,Taichi,0000,0000,0000,Além disso, você facilmente me acompanhou quando de repente me virei.
+Dialogue: 0,0:10:21.26,0:10:26.43,main,Taichi,0000,0000,0000,Mais do que tudo, você não ficou assustado quando me viu mandar aquele cara voando.
+Dialogue: 0,0:10:27.73,0:10:29.85,main,Anastasia,0000,0000,0000,Eu sabia que você notaria.
+Dialogue: 0,0:10:30.74,0:10:32.19,main,Taichi,0000,0000,0000,Você sabia?
+Dialogue: 0,0:10:32.19,0:10:35.23,main,Anastasia,0000,0000,0000,Nós já nos conhecemos antes.
+Dialogue: 0,0:10:35.23,0:10:38.91,main,Anastasia,0000,0000,0000,Essa foi a primeira vez que alguém foi tão duro comigo.
+Dialogue: 0,0:10:38.91,0:10:41.75,main,Taichi,0000,0000,0000,<i>Rough?!</i> <b>Rude?!</b> <i>Huh?!</i> <b>Hã?!</b>
+Dialogue: 0,0:10:42.85,0:10:47.04,main,Anastasia,0000,0000,0000,Você me nocauteou com um único golpe no estômago.
+Dialogue: 0,0:10:47.04,0:10:48.46,main,Taichi,0000,0000,0000,Espere, você é ...
+Dialogue: 0,0:10:53.76,0:10:55.88,main,Anastasia,0000,0000,0000,Eu sou Anastasia.
+Dialogue: 0,0:10:55.88,0:11:00.47,main,Anastasia,0000,0000,0000,O ex-assassino que vocês dois capturaram nas ruas naquela noite.
+Dialogue: 0,0:11:04.93,0:11:08.09,main,Taichi,0000,0000,0000,Então você se juntou à guilda agora?
+Dialogue: 0,0:11:08.09,0:11:09.02,main,Anastasia,0000,0000,0000,Sim.
+Dialogue: 0,0:11:09.02,0:11:13.26,main,Anastasia,0000,0000,0000,Um assassino que falhou em sua missão não tem outra escolha.
+Dialogue: 0,0:11:13.26,0:11:15.45,main,Taichi,0000,0000,0000,Então, depois de fazer alguma investigação adicional
+Dialogue: 0,0:11:15.45,0:11:19.40,main,,0000,0000,0000,no caso de alimentos e mercadorias roubados que estávamos investigando ...
+Dialogue: 0,0:11:19.40,0:11:21.78,main,Anastasia,0000,0000,0000,Esta mansão se destacou.
+Dialogue: 0,0:11:22.14,0:11:25.07,main,Taichi,0000,0000,0000,Ainda assim, estou surpreso que você tenha desenterrado tanto assim.
+Dialogue: 0,0:11:25.07,0:11:28.83,main,Anastasia,0000,0000,0000,<i>Well, yeah.</i> <b>Bem, sim.</b> <i>I am a former assassin.</i> <b>Eu sou um ex-assassino.</b>
+Dialogue: 0,0:11:52.29,0:11:56.57,main,Taichi,0000,0000,0000,Agora, há algo que poderíamos usar como evidência?
+Dialogue: 0,0:12:06.47,0:12:07.58,main,Anastasia,0000,0000,0000,Qual é o problema?
+Dialogue: 0,0:12:09.16,0:12:10.60,main,Taichi,0000,0000,0000,Só podes estar a brincar comigo!
+Dialogue: 0,0:12:17.28,0:12:20.17,main,Myura,0000,0000,0000,É bom aproveitar a vida noturna de vez em quando.
+Dialogue: 0,0:12:20.64,0:12:21.34,main,Rin,0000,0000,0000,Sim.
+Dialogue: 0,0:12:21.34,0:12:26.20,main,Myura,0000,0000,0000,Ainda assim, eu não posso acreditar que estes valem oito cobres cada.
+Dialogue: 0,0:12:26.20,0:12:27.13,main,Rin,0000,0000,0000,Sim.
+Dialogue: 0,0:12:28.76,0:12:31.80,main,Myura,0000,0000,0000,Você está pensando em Taichi novamente, não está?
+Dialogue: 0,0:12:31.80,0:12:32.77,main,Rin,0000,0000,0000,Sim.
+Dialogue: 0,0:12:32.77,0:12:33.69,main,Rin,0000,0000,0000,Hã?!
+Dialogue: 0,0:12:33.69,0:12:35.26,main,Myura,0000,0000,0000,Eu sabia.
+Dialogue: 0,0:12:35.26,0:12:37.12,main,Myura,0000,0000,0000,Você é como um livro aberto.
+Dialogue: 0,0:12:37.12,0:12:38.86,main,Rin,0000,0000,0000,Uh, não é isso ...
+Dialogue: 0,0:12:38.86,0:12:40.15,main,Myura,0000,0000,0000,Não se preocupe.
+Dialogue: 0,0:12:40.15,0:12:42.99,main,Myura,0000,0000,0000,Ele ficará bem aos cuidados de Lemiya.
+Dialogue: 0,0:12:43.56,0:12:46.53,main,Myura,0000,0000,0000,Temos que nos concentrar em terminar o que precisamos fazer agora.
+Dialogue: 0,0:12:48.44,0:12:49.35,main,Rin,0000,0000,0000,Sim.
+Dialogue: 0,0:12:52.24,0:12:54.83,main,Customer,0000,0000,0000,Isso é muito caro!
+Dialogue: 0,0:12:54.83,0:12:57.08,main,Shop,0000,0000,0000,Também não há nada que eu possa fazer!
+Dialogue: 0,0:12:57.08,0:12:59.63,main,Customer,0000,0000,0000,Mas isso é três vezes o que custou ontem!
+Dialogue: 0,0:12:59.63,0:13:02.97,main,Myura,0000,0000,0000,Os preços não param de disparar, hein?
+Dialogue: 0,0:13:02.97,0:13:08.14,main,Rin,0000,0000,0000,Precisamos ver se isso está relacionado ao aumento de monstros, como Lemiya suspeita.
+Dialogue: 0,0:13:08.77,0:13:09.85,main,Myura,0000,0000,0000,A propósito...
+Dialogue: 0,0:13:09.85,0:13:10.89,main,Rin,0000,0000,0000,Sim.
+Dialogue: 0,0:13:10.89,0:13:14.12,main,Myura,0000,0000,0000,Há muitas pessoas por perto para enfrentá-las aqui.
+Dialogue: 0,0:13:14.12,0:13:16.19,main,Myura,0000,0000,0000,Devemos levá-los para os arredores ...
+Dialogue: 0,0:13:25.90,0:13:27.66,main,Myura,0000,0000,0000,Saia daqui!
+Dialogue: 0,0:13:27.66,0:13:28.60,main,Myura,0000,0000,0000,Agora mesmo!
+Dialogue: 0,0:13:46.64,0:13:48.68,main,Rin,0000,0000,0000,Voce terminou!
+Dialogue: 0,0:13:53.04,0:13:54.36,main,Rin,0000,0000,0000,Armadura Aero!
+Dialogue: 0,0:14:05.61,0:14:07.68,main,Myura,0000,0000,0000,Dois contra quatro, não é?
+Dialogue: 0,0:14:07.68,0:14:09.28,main,Myura,0000,0000,0000,Mas com você aqui ...
+Dialogue: 0,0:14:09.28,0:14:11.38,main,Grammy,0000,0000,0000,Não, são dois versus cinco.
+Dialogue: 0,0:14:13.96,0:14:15.04,main,Myura,0000,0000,0000,Grammy ?!
+Dialogue: 0,0:14:18.62,0:14:19.86,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:14:20.63,0:14:24.67,main,Grammy,0000,0000,0000,Eu realmente odeio confiar nessa coisa ...
+Dialogue: 0,0:14:24.67,0:14:25.84,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:14:26.58,0:14:28.65,main,Grammy,0000,0000,0000,Mas ordens do chefe.
+Dialogue: 0,0:14:28.65,0:14:30.25,main,Grammy,0000,0000,0000,Não me culpe.
+Dialogue: 0,0:14:30.72,0:14:32.28,main,Rin,0000,0000,0000,Aguente!
+Dialogue: 0,0:14:34.84,0:14:37.71,main,Grammy,0000,0000,0000,Eu sei que vocês não serão capazes de vencê-la.
+Dialogue: 0,0:14:37.71,0:14:39.77,main,Grammy,0000,0000,0000,Então, adie-a e você se saiu bem!
+Dialogue: 0,0:14:39.77,0:14:41.18,main,Rin,0000,0000,0000,Aguarde!
+Dialogue: 0,0:14:46.02,0:14:47.44,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:14:48.36,0:14:51.36,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:14:56.04,0:14:56.95,main,Anastasia,0000,0000,0000,Eu sabia.
+Dialogue: 0,0:14:57.59,0:15:01.84,main,Anastasia,0000,0000,0000,Parece que esse túnel subterrâneo foi construído usando a magia da terra.
+Dialogue: 0,0:15:01.84,0:15:04.34,main,Taichi,0000,0000,0000,Se o que está escrito aqui for verdadeiro,
+Dialogue: 0,0:15:04.62,0:15:08.30,main,Taichi,0000,0000,0000,então uma horda de duendes aprimorada pelos Pactos Carmesins
+Dialogue: 0,0:15:08.30,0:15:11.55,main,,0000,0000,0000,estão se escondendo aqui sob Azpire.
+Dialogue: 0,0:15:11.55,0:15:14.44,main,Anastasia,0000,0000,0000,Se eles fossem desencadeados na cidade ...
+Dialogue: 0,0:15:15.27,0:15:17.06,main,Taichi,0000,0000,0000,Temos que detê-los!
+Dialogue: 0,0:15:17.99,0:15:18.89,main,Taichi,0000,0000,0000,Esse cheiro!
+Dialogue: 0,0:15:23.78,0:15:24.77,main,Taichi,0000,0000,0000,Oh cara...
+Dialogue: 0,0:15:25.32,0:15:26.43,main,Taichi,0000,0000,0000,Eles devem estar à frente!
+Dialogue: 0,0:15:26.43,0:15:27.23,main,Anastasia,0000,0000,0000,Esperar!
+Dialogue: 0,0:15:27.68,0:15:29.74,main,Anastasia,0000,0000,0000,Pode estar preso.
+Dialogue: 0,0:15:30.26,0:15:31.66,main,Anastasia,0000,0000,0000,Eu vou abrir.
+Dialogue: 0,0:15:35.51,0:15:36.45,main,Anastasia,0000,0000,0000,Ufa.
+Dialogue: 0,0:15:39.56,0:15:41.13,main,Anastasia,0000,0000,0000,Está seguro agora.
+Dialogue: 0,0:15:41.13,0:15:42.84,main,Taichi,0000,0000,0000,Tudo bem.
+Dialogue: 0,0:15:42.84,0:15:44.33,main,Anastasia,0000,0000,0000,Qual é o problema?
+Dialogue: 0,0:15:44.33,0:15:48.24,main,Taichi,0000,0000,0000,Bem, apenas percebendo que você realmente é um assassino.
+Dialogue: 0,0:15:48.24,0:15:49.21,main,Anastasia,0000,0000,0000,Tão tarde?
+Dialogue: 0,0:15:49.68,0:15:50.91,main,Taichi,0000,0000,0000,Sim.
+Dialogue: 0,0:15:50.91,0:15:54.56,main,Taichi,0000,0000,0000,Quero dizer, quando entreguei você à guilda,
+Dialogue: 0,0:15:54.56,0:16:01.85,main,Taichi,0000,0000,0000,Eu tinha a ideia de que você seria capaz de viver uma vida normal e adequada a partir de agora.
+Dialogue: 0,0:16:01.85,0:16:02.73,main,Anastasia,0000,0000,0000,Hã?
+Dialogue: 0,0:16:03.67,0:16:05.77,main,Taichi,0000,0000,0000,Então, eu tenho sentimentos confusos
+Dialogue: 0,0:16:05.77,0:16:10.49,main,,0000,0000,0000,sobre a guilda pedindo para você fazer todos os tipos de trabalhos como esse.
+Dialogue: 0,0:16:10.49,0:16:13.53,main,Taichi,0000,0000,0000,Para ser sincero, isso não está certo comigo.
+Dialogue: 0,0:16:14.86,0:16:18.24,main,Taichi,0000,0000,0000,Mas isso é apenas meu ego falando.
+Dialogue: 0,0:16:18.24,0:16:20.04,main,Taichi,0000,0000,0000,Vamos Anastasia.
+Dialogue: 0,0:16:21.08,0:16:22.46,main,Anastasia,0000,0000,0000,Me chame de Ana.
+Dialogue: 0,0:16:24.96,0:16:27.18,main,Anastasia,0000,0000,0000,Anastasia é um bocado, certo?
+Dialogue: 0,0:16:27.88,0:16:29.75,main,Anastasia,0000,0000,0000,Apenas me chame de Ana.
+Dialogue: 0,0:16:32.76,0:16:35.93,main,Taichi,0000,0000,0000,<i>Sure.</i> <b>Certo.</b> <i>Nice working with you, Ana.</i> <b>Bom trabalhar com você, Ana.</b>
+Dialogue: 0,0:16:41.80,0:16:43.98,main,Rin,0000,0000,0000,Pararia de ficar no caminho!
+Dialogue: 0,0:16:50.71,0:16:52.20,main,Grammy,0000,0000,0000,Isso foi rápido.
+Dialogue: 0,0:16:52.92,0:16:54.40,main,Rin,0000,0000,0000,Grammy!
+Dialogue: 0,0:16:54.40,0:16:59.02,main,Grammy,0000,0000,0000,Não se preocupe, eu não pretendo lutar com você agora.
+Dialogue: 0,0:17:00.58,0:17:04.08,main,Grammy,0000,0000,0000,A garota elfa está naquele prédio.
+Dialogue: 0,0:17:04.63,0:17:06.50,main,Rin,0000,0000,0000,Por que você me disse isso?
+Dialogue: 0,0:17:06.50,0:17:11.65,main,Grammy,0000,0000,0000,Por um lado, não fiz esse trabalho secreto porque queria.
+Dialogue: 0,0:17:11.65,0:17:15.60,main,Grammy,0000,0000,0000,Quero dizer, não é da minha conta se mais alguém morrer,
+Dialogue: 0,0:17:15.60,0:17:18.14,main,,0000,0000,0000,mas vocês dois são minha presa.
+Dialogue: 0,0:17:18.14,0:17:21.06,main,Grammy,0000,0000,0000,Não posso ter você morrendo comigo.
+Dialogue: 0,0:17:22.02,0:17:23.93,main,Grammy,0000,0000,0000,Agora se apresse e vá embora.
+Dialogue: 0,0:17:23.93,0:17:29.23,main,Grammy,0000,0000,0000,Meu empregador planeja usar o Pacto Carmesim nessa garota.
+Dialogue: 0,0:17:29.75,0:17:32.12,main,Rin,0000,0000,0000,O Pacto Carmesim?
+Dialogue: 0,0:17:32.92,0:17:34.90,main,Grammy,0000,0000,0000,Você viu, não viu?
+Dialogue: 0,0:17:34.90,0:17:37.29,main,Grammy,0000,0000,0000,Aquele monstro vermelho.
+Dialogue: 0,0:17:40.41,0:17:42.35,main,Grammy,0000,0000,0000,Vá em frente.
+Dialogue: 0,0:17:42.35,0:17:47.42,main,Grammy,0000,0000,0000,Você deve poder enfrentar todas as pessoas que estão lá sem problemas.
+Dialogue: 0,0:17:48.47,0:17:50.34,main,Rin,0000,0000,0000,Não pense que eu te devo isso!
+Dialogue: 0,0:18:00.71,0:18:02.49,main,Grammy,0000,0000,0000,Não perca agora.
+Dialogue: 0,0:18:17.72,0:18:18.92,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:18:19.53,0:18:20.84,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:18:24.88,0:18:27.56,main,Mage,0000,0000,0000,Você é amigo desse elfo?
+Dialogue: 0,0:18:28.24,0:18:29.96,main,Rin,0000,0000,0000,O que você está fazendo com Myura?
+Dialogue: 0,0:18:29.96,0:18:32.40,main,Mage,0000,0000,0000,O elfo será nosso sacrifício.
+Dialogue: 0,0:18:32.40,0:18:35.80,main,Mage,0000,0000,0000,Para o ritual especial que estamos prestes a realizar.
+Dialogue: 0,0:18:36.26,0:18:38.33,main,Rin,0000,0000,0000,O que você está fazendo com Myura?
+Dialogue: 0,0:18:41.54,0:18:44.81,main,Rin,0000,0000,0000,O que você está fazendo com Myura ?!
+Dialogue: 0,0:18:49.02,0:18:50.44,main,Rin,0000,0000,0000,Não se mexa.
+Dialogue: 0,0:18:54.84,0:18:56.60,main,Rin,0000,0000,0000,Você se importaria de ficar para mim?
+Dialogue: 0,0:18:59.41,0:19:00.07,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:19:03.16,0:19:04.12,main,Myura,0000,0000,0000,Rin?
+Dialogue: 0,0:19:04.97,0:19:07.08,main,Rin,0000,0000,0000,Espere, eu vou te salvar!
+Dialogue: 0,0:19:07.68,0:19:08.95,italics,Rin,0000,0000,0000,Posso quebrar isso?
+Dialogue: 0,0:19:10.04,0:19:11.27,italics,Rin,0000,0000,0000,O chão é de pedra.
+Dialogue: 0,0:19:11.89,0:19:13.92,italics,Rin,0000,0000,0000,Então, se eu usar magia da terra ...
+Dialogue: 0,0:19:27.06,0:19:28.28,main,Rin,0000,0000,0000,Myura!
+Dialogue: 0,0:19:28.87,0:19:31.75,main,Myura,0000,0000,0000,Rin, me desculpe.
+Dialogue: 0,0:19:32.96,0:19:34.41,main,Myura,0000,0000,0000,Abaixei minha guarda.
+Dialogue: 0,0:19:34.41,0:19:36.92,main,Rin,0000,0000,0000,Não, está bem.
+Dialogue: 0,0:19:36.92,0:19:39.20,main,Rin,0000,0000,0000,Isso não importa agora.
+Dialogue: 0,0:19:39.20,0:19:40.04,main,Myura,0000,0000,0000,Rin ...
+Dialogue: 0,0:19:40.04,0:19:42.20,main,Lodra,0000,0000,0000,Maravilhoso.
+Dialogue: 0,0:19:42.20,0:19:45.18,main,Lodra,0000,0000,0000,Você desativou todos sem matá-los?
+Dialogue: 0,0:19:45.18,0:19:49.83,main,Lodra,0000,0000,0000,É fácil falar sobre fazer, mas difícil de alcançar.
+Dialogue: 0,0:19:52.28,0:19:53.42,main,Rin,0000,0000,0000,Você é...
+Dialogue: 0,0:19:54.00,0:19:58.89,main,Lodra,0000,0000,0000,Estou surpreso que você tão facilmente superou minhas expectativas.
+Dialogue: 0,0:19:58.89,0:20:02.89,main,Lodra,0000,0000,0000,Cassim, parece que seu subordinado também é muito talentoso.
+Dialogue: 0,0:20:02.89,0:20:05.45,main,Lodra,0000,0000,0000,Ela descobriu a brecha em suas veias.
+Dialogue: 0,0:20:05.45,0:20:06.10,main,Cassim,0000,0000,0000,Certo...
+Dialogue: 0,0:20:06.48,0:20:08.75,main,Rin,0000,0000,0000,Você foi quem fez isso?
+Dialogue: 0,0:20:08.75,0:20:10.09,main,Lodra,0000,0000,0000,Eu sou.
+Dialogue: 0,0:20:10.09,0:20:12.08,main,Lodra,0000,0000,0000,Embora eles sejam os autores,
+Dialogue: 0,0:20:12.08,0:20:16.33,main,,0000,0000,0000,Fui eu quem predisse esse resultado e trabalhei para que isso acontecesse.
+Dialogue: 0,0:20:16.88,0:20:18.07,main,Rin,0000,0000,0000,Você pagará!
+Dialogue: 0,0:20:18.07,0:20:19.64,main,Lodra,0000,0000,0000,Espere um momento.
+Dialogue: 0,0:20:19.64,0:20:24.06,main,Lodra,0000,0000,0000,Eu não me mostrei por uma batalha com vocês dois.
+Dialogue: 0,0:20:24.06,0:20:26.33,main,Lodra,0000,0000,0000,Eu vim aqui para informá-lo.
+Dialogue: 0,0:20:26.33,0:20:27.85,main,Rin,0000,0000,0000,Nos informe?
+Dialogue: 0,0:20:27.85,0:20:29.24,main,Lodra,0000,0000,0000,Vou manter isso breve.
+Dialogue: 0,0:20:29.70,0:20:33.37,main,Lodra,0000,0000,0000,Um exército de monstros estará atacando esta cidade.
+Dialogue: 0,0:20:33.37,0:20:34.41,main,Rin,0000,0000,0000,Hã?
+Dialogue: 0,0:20:35.04,0:20:38.92,main,Lodra,0000,0000,0000,Eles são dois ... não, três mil.
+Dialogue: 0,0:20:39.44,0:20:42.34,main,Rin,0000,0000,0000,Th-três mil ?!
+Dialogue: 0,0:20:54.73,0:20:58.15,main,Lodra,0000,0000,0000,Você entende o que aquilo significa?
+Dialogue: 0,0:20:58.61,0:21:04.24,main,Lodra,0000,0000,0000,Sim, isso é mais do que suficiente para destruir tudo.
+Dialogue: 0,0:21:04.84,0:21:09.16,main,Lodra,0000,0000,0000,<i>All that is precious to you.</i> <b>Tudo o que é precioso para você.</b> <i>Everything and anything.</i> <b>Tudo e qualquer coisa.</b>
+Dialogue: 0,0:21:10.48,0:21:11.76,main,Rin,0000,0000,0000,Taichi ...
+Dialogue: 0,0:21:11.76,0:21:14.68,main,Cassim,0000,0000,0000,Infelizmente, esse garoto não virá.
+Dialogue: 0,0:21:16.20,0:21:19.54,main,Cassim,0000,0000,0000,Nós preparamos um estágio diferente para ele nesta cidade.
+Dialogue: 0,0:21:19.54,0:21:21.02,main,Rin,0000,0000,0000,O que você quer dizer?!
+Dialogue: 0,0:21:21.02,0:21:22.92,main,Rin,0000,0000,0000,Taichi está aqui em Azpire ?!
+Dialogue: 0,0:21:24.13,0:21:28.00,main,Lodra,0000,0000,0000,Agora, então, o que vocês dois podem fazer?
+Dialogue: 0,0:21:28.00,0:21:30.89,main,Lodra,0000,0000,0000,Quão bem você pode proteger esta cidade?
+Dialogue: 0,0:21:31.75,0:21:33.72,main,Lodra,0000,0000,0000,Estou ansioso para descobrir.
+Dialogue: 0,0:23:12.92,0:23:15.84,main,Anastasia,0000,0000,0000,Vou verificar também.
+Dialogue: 0,0:23:15.84,0:23:16.73,main,Taichi,0000,0000,0000,Certo.
+Dialogue: 0,0:23:20.16,0:23:20.84,main,Anastasia,0000,0000,0000,Hã?
+Dialogue: 0,0:23:22.38,0:23:23.17,main,Taichi,0000,0000,0000,Ana!
+Dialogue: 0,0:23:35.68,0:23:40.06,sign_33941_387_Magic_Training,Screen,0000,0000,0000,{\ fad (1690,1)} Defesa de Azpire
+Dialogue: 0,0:23:36.32,0:23:39.06,main,Rin,0000,0000,0000,Próximo episódio: &quot;Defense of Azpire&quot;.

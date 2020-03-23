@@ -1,8 +1,6 @@
 ﻿[Script Info]
 Title: HorribleSubs
 ScriptType: v4.00+
-Collisions: Normal
-PlayDepth: 0
 WrapStyle: 0
 PlayResX: 848
 PlayResY: 480
@@ -10,275 +8,341 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,2.0,0,2,0,0,28,1
+Style: Default,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: main,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: top,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,13,13,24,0
+Style: italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,0
+Style: italicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashback,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashback italics,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,2,0,0,28,1
+Style: flashbacktop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: flashbackitalicstop,Open Sans Semibold,36,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,1,0,0,100,100,0,0,1,1.7,0,8,0,0,28,0
+Style: sign_33941_387_Magic_Training,Open Sans Semibold,30,&H00344751,&H000000FF,&H0087B2CF,&H00000000,1,0,0,0,100,100,0,0,1,4,0,2,40,40,260,1
+Style: sign_5067_39_Episode_2_____Ma,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H4B4E4948,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,593,40,87,1
+Style: sign_3130_5_Episode_5__A_Hin,Open Sans Semibold,21,&H00FFFFFF,&H000000FF,&H4B4E4948,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,567,40,87,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
-Dialogue: 0,0:00:11.79,0:00:14.83,Default,,0,0,0,,Why can't I do this?
-Dialogue: 0,0:00:14.83,0:00:16.95,Default,,0,0,0,,I see:
-Dialogue: 0,0:00:16.95,0:00:21.16,Default,,0,0,0,,I can't create because\Nthere's none of it within me.
-Dialogue: 0,0:00:21.16,0:00:25.91,Default,,0,0,0,,Why wasn't I around in the age of knights?
-Dialogue: 0,0:00:25.91,0:00:30.58,Default,,0,0,0,,Why couldn't I have lived in the days\Nof myths and legends?
-Dialogue: 0,0:00:30.58,0:00:31.25,Default,,0,0,0,,That's when he encountered it...
-Dialogue: 0,0:00:31.25,0:00:35.12,Default,,0,0,0,,"{\i1}Infinite Dendrogram {\i0}offers a new world\Nand your own unique possibilities."\NThat's when he encountered it...
-Dialogue: 0,0:00:40.16,0:00:43.66,Default,,0,0,0,,A world exceedingly close to his ideal,
-Dialogue: 0,0:00:43.66,0:00:47.58,Default,,0,0,0,,where he could find the feeling\Nhe'd been searching for.
-Dialogue: 0,0:02:19.00,0:02:21.70,Default,,0,0,0,,{\an8}"Chapter 10: The Movement on the Board"
-Dialogue: 0,0:02:27.70,0:02:32.00,Default,,0,0,0,,Dammit... All these shots,\Nand not one is reaching him!
-Dialogue: 0,0:02:36.79,0:02:40.95,Default,,0,0,0,,That sound attack crushes everything\Nwith huge shockwaves.
-Dialogue: 0,0:02:40.95,0:02:43.12,Default,,0,0,0,,And that vibration field?
-Dialogue: 0,0:02:43.12,0:02:48.75,Default,,0,0,0,,I imagine he'll keep that up till I'm dead,\Nso no disguising my presence for a sneak attack.
-Dialogue: 0,0:02:48.75,0:02:53.29,Default,,0,0,0,,Plus there are at least\Ntwo other attacks mixed in.
-Dialogue: 0,0:02:56.16,0:02:58.25,Default,,0,0,0,,Sound-based hypnosis...
-Dialogue: 0,0:02:59.25,0:03:02.54,Default,,0,0,0,,...and an ultrasonic scalpel.
-Dialogue: 0,0:03:02.54,0:03:06.20,Default,,0,0,0,,A Type Legion with each unit\Nusing different skills, eh?
-Dialogue: 0,0:03:06.20,0:03:08.70,Default,,0,0,0,,That's bad news, all right.
-Dialogue: 0,0:03:08.70,0:03:12.45,Default,,0,0,0,,I hate to say this, but we're a terrible match!
-Dialogue: 0,0:03:12.45,0:03:15.79,Default,,0,0,0,,Your performance is really quite enchanting.
-Dialogue: 0,0:03:15.79,0:03:20.70,Default,,0,0,0,,Is it your King of Orchestras skills\Nthat make it sound so good?
-Dialogue: 0,0:03:20.70,0:03:24.95,Default,,0,0,0,,Well, I {\i1}did {\i0}compose the score,\Nat the very least.
-Dialogue: 0,0:03:24.95,0:03:32.70,Default,,0,0,0,,Impressive. But why would someone\Nlike you be in a robot production clan?
-Dialogue: 0,0:03:32.70,0:03:37.08,Default,,0,0,0,,Because Franklin might just become a hero.
-Dialogue: 0,0:03:37.08,0:03:38.79,Default,,0,0,0,,A hero?
-Dialogue: 0,0:03:38.79,0:03:45.20,Default,,0,0,0,,Yes: I want to see with my own eyes\Nthe very moment a real hero arises.
-Dialogue: 0,0:03:46.58,0:03:48.41,Default,,0,0,0,,Is he out of MP?
-Dialogue: 0,0:03:50.91,0:03:52.91,Default,,0,0,0,,Percussion, solo.
-Dialogue: 0,0:03:52.91,0:03:55.75,Default,,0,0,0,,Strings and Wind, start tuning up.
-Dialogue: 0,0:04:02.95,0:04:07.50,Default,,0,0,0,,A low-frequency, high-volume sound,\Ninaudible to humans...
-Dialogue: 0,0:04:07.50,0:04:09.75,Default,,0,0,0,,But where is it coming from?
-Dialogue: 0,0:04:17.83,0:04:19.79,Default,,0,0,0,,A fourth!
-Dialogue: 0,0:04:22.29,0:04:28.16,Default,,0,0,0,,Aha--so the hat fools you into thinking\Nthe bird's not missing after all.
-Dialogue: 0,0:04:28.16,0:04:31.04,Default,,0,0,0,,A quartet of musical animals...
-Dialogue: 0,0:04:31.04,0:04:33.29,Default,,0,0,0,,Veldorbell's Embryo is--
-Dialogue: 0,0:04:33.29,0:04:34.75,Default,,0,0,0,,Bremen.
-Dialogue: 0,0:04:34.75,0:04:36.45,Default,,0,0,0,,Percussion!
-Dialogue: 0,0:04:48.87,0:04:51.58,Default,,0,0,0,,Huh? Suspending publication?
-Dialogue: 0,0:04:51.58,0:04:54.20,Default,,0,0,0,,That's right. I'm sorry.
-Dialogue: 0,0:04:55.87,0:05:03.75,Default,,0,0,0,,Thus my very first series ended--\Nalong with its publisher.
-Dialogue: 0,0:05:03.75,0:05:09.50,Default,,0,0,0,,Two years and it was unceremoniously over.\NI was flabbergasted.
-Dialogue: 0,0:05:09.50,0:05:14.29,Default,,0,0,0,,But when one door closes, another opens.
-Dialogue: 0,0:05:14.29,0:05:18.37,Default,,0,0,0,,How about serializing the rest\Nof your series in our magazine?
-Dialogue: 0,0:05:18.37,0:05:21.12,Default,,0,0,0,,Yes--gladly! Sure!
-Dialogue: 0,0:05:21.12,0:05:21.75,Default,,0,0,0,,--Let's see... how about we meet at...?
-Dialogue: 0,0:05:21.75,0:05:24.41,Default,,0,0,0,,--I agreed right away.\N--Let's see... how about we meet at...?
-Dialogue: 0,0:05:24.41,0:05:29.54,Default,,0,0,0,,I hadn't realized it at the time.
-Dialogue: 0,0:05:33.25,0:05:37.75,Default,,0,0,0,,I'd simply become unable\Nto continue drawing my manga.
-Dialogue: 0,0:05:37.75,0:05:44.95,Default,,0,0,0,,When the first part ended,\Nthe Marie Adler inside me fell still.
-Dialogue: 0,0:05:45.87,0:05:51.00,Default,,0,0,0,,Try as I might, Marie remained\Nmotionless in the stories I drew.
-Dialogue: 0,0:05:54.79,0:06:00.41,Default,,0,0,0,,Please, God. Give me a possibility\Nthat isn't my own.
-Dialogue: 0,0:06:00.41,0:06:05.20,Default,,0,0,0,,Let me draw the rest of her story!
-Dialogue: 0,0:06:05.20,0:06:09.04,Default,,0,0,0,,Let me understand her.
-Dialogue: 0,0:06:09.04,0:06:09.41,Default,,0,0,0,,That's when I remembered\Nthe existence of a certain game.
-Dialogue: 0,0:06:09.41,0:06:13.66,Default,,0,0,0,,"{\i1}Infinite Dendrogram {\i0}offers a new world\Nand your own unique possibilities."\NThat's when I remembered\Nthe existence of a certain game.
-Dialogue: 0,0:06:14.54,0:06:19.00,Default,,0,0,0,,I hoped that a game that provided\Nall kinds of possibilities and lives
-Dialogue: 0,0:06:19.00,0:06:24.95,Default,,0,0,0,,might help me find that which I'd lost sight of:
-Dialogue: 0,0:06:24.95,0:06:27.33,Default,,0,0,0,,The continuation of my manga.
-Dialogue: 0,0:06:27.33,0:06:32.62,Default,,0,0,0,,I named my avatar "Marie Adler"\Nand patterned my speech after hers.
-Dialogue: 0,0:06:32.62,0:06:42.95,Default,,0,0,0,,My hope is that roleplaying as her might just\Nbreathe new life into the Marie within.
-Dialogue: 0,0:06:42.95,0:06:49.66,Default,,0,0,0,,I haven't drawn any more of the manga yet,\Nbut I can feel her breathing again--
-Dialogue: 0,0:06:49.66,0:06:53.91,Default,,0,0,0,,inside me, inside Marie Adler.
-Dialogue: 0,0:06:53.91,0:06:58.25,Default,,0,0,0,,And that's enough reason for me to be here.
-Dialogue: 0,0:07:03.62,0:07:05.75,Default,,0,0,0,,Sound Search.
-Dialogue: 0,0:07:09.83,0:07:11.33,Default,,0,0,0,,She's gone.
-Dialogue: 0,0:07:11.33,0:07:14.20,Default,,0,0,0,,Heart Beat Palpitation, cancel.
-Dialogue: 0,0:07:14.20,0:07:15.08,Default,,0,0,0,,"Veldorbell"
-Dialogue: 0,0:07:15.08,0:07:17.20,Default,,0,0,0,,"Veldorbell"\NThat certainly came at a high cost.
-Dialogue: 0,0:07:26.58,0:07:29.16,Default,,0,0,0,,Heart Beat Palpitation!
-Dialogue: 0,0:07:32.83,0:07:36.04,Default,,0,0,0,,You... Who {\i1}are {\i0}you?!
-Dialogue: 0,0:07:36.04,0:07:39.79,Default,,0,0,0,,Now, then: Have you used up all your Wards?
-Dialogue: 0,0:07:39.79,0:07:42.04,Default,,0,0,0,,How did you fend off Bremen?
-Dialogue: 0,0:07:42.04,0:07:45.08,Default,,0,0,0,,How, indeed!
-Dialogue: 0,0:07:45.08,0:07:48.79,Default,,0,0,0,,My ultimate job skill, Art of Vanishing,\Nlets me disappear from the world.
-Dialogue: 0,0:07:48.79,0:07:54.25,Default,,0,0,0,,The perfect stealth it conveys is powerful,\Nbut it chews through SP.
-Dialogue: 0,0:07:58.45,0:08:01.79,Default,,0,0,0,,I'll just finish you off for good, right here.
-Dialogue: 0,0:08:01.79,0:08:03.45,Default,,0,0,0,,It cannot end here.
-Dialogue: 0,0:08:03.45,0:08:10.08,Default,,0,0,0,,History will be made tonight,\Na legendary turning point for this nation.
-Dialogue: 0,0:08:10.08,0:08:14.25,Default,,0,0,0,,I cannot make my exit until that moment\Nhas been burned into my retinas
-Dialogue: 0,0:08:14.25,0:08:16.45,Default,,0,0,0,,and etched into my very soul.
-Dialogue: 0,0:08:17.41,0:08:24.00,Default,,0,0,0,,Otherwise, I'll never be able to finish my work!
-Dialogue: 0,0:08:25.08,0:08:30.04,Default,,0,0,0,,Oh, I see. You're a lot like me.
-Dialogue: 0,0:08:30.95,0:08:35.12,Default,,0,0,0,,But I'm still going to ask you\Nto leave, old-timer.
-Dialogue: 0,0:08:35.12,0:08:37.62,Default,,0,0,0,,You impudent girl...
-Dialogue: 0,0:08:37.62,0:08:40.08,Default,,0,0,0,,Final Orchestra!
-Dialogue: 0,0:08:47.37,0:08:52.12,Default,,0,0,0,,I'm afraid superficial politeness\Nis part of my character.
-Dialogue: 0,0:08:56.33,0:09:00.95,Default,,0,0,0,,Arc-en-Ciel! Daisy Scarlet, the Explosion Death!
-Dialogue: 0,0:09:00.95,0:09:03.54,Default,,0,0,0,,Bremen! Wind!
-Dialogue: 0,0:09:14.08,0:09:16.37,Default,,0,0,0,,But... why...?
-Dialogue: 0,0:09:16.37,0:09:18.29,Default,,0,0,0,,Looks like I win.
-Dialogue: 0,0:09:18.29,0:09:23.58,Default,,0,0,0,,All who hear that tune give up\Ntheir lives. Why do you still live?
-Dialogue: 0,0:09:23.58,0:09:29.58,Default,,0,0,0,,Sorry. Me and the girl here,\Nwe didn't really hear it.
-Dialogue: 0,0:09:29.58,0:09:34.70,Default,,0,0,0,,I think I might {\i1}like {\i0}to hear\Na melody that's to die for...
-Dialogue: 0,0:09:34.70,0:09:36.54,Default,,0,0,0,,But now's not the time.
-Dialogue: 0,0:09:36.54,0:09:39.54,Default,,0,0,0,,You... didn't hear it?
-Dialogue: 0,0:09:39.54,0:09:46.87,Default,,0,0,0,,Her blast blows away the surrounding\Natmosphere, so sound can't travel.
-Dialogue: 0,0:09:46.87,0:09:53.54,Default,,0,0,0,,Not lending an ear to\Ngood music? You philistine.
-Dialogue: 0,0:09:53.54,0:09:57.41,Default,,0,0,0,,Farewell, King of Orchestras.
-Dialogue: 0,0:09:59.91,0:10:03.29,Default,,0,0,0,,So Veldorbell's out.
-Dialogue: 0,0:10:03.29,0:10:06.95,Default,,0,0,0,,I imagine it was no mean feat,\Nconsidering his might.
-Dialogue: 0,0:10:06.95,0:10:12.50,Default,,0,0,0,,The Superior Killer probably doesn't have\Nenough strength left to take me on.
-Dialogue: 0,0:10:12.50,0:10:16.50,Default,,0,0,0,,And I doubt there are any other\Nexceptions of her level.
-Dialogue: 0,0:10:16.50,0:10:21.45,Default,,0,0,0,,Still, I should count on one or two\Nmore Superiors still out there.
-Dialogue: 0,0:10:21.45,0:10:24.45,Default,,0,0,0,,Then there's Ray Starling.
-Dialogue: 0,0:10:24.45,0:10:30.54,Default,,0,0,0,,I should have given him instadeath poison\Ninstead of those goofy dog ears.
-Dialogue: 0,0:10:30.54,0:10:34.45,Default,,0,0,0,,He really gummed things up\Nwith that Liliana incident.
-Dialogue: 0,0:10:34.45,0:10:40.58,Default,,0,0,0,,Not that it matters anymore. RSK is ready to go.
-Dialogue: 0,0:10:45.62,0:10:49.33,Default,,0,0,0,,What a spectacle! Outstanding!
-Dialogue: 0,0:10:49.33,0:10:50.79,Default,,0,0,0,,Ha!
-Dialogue: 0,0:10:53.16,0:10:55.54,Default,,0,0,0,,You should have just shattered them.
-Dialogue: 0,0:10:55.54,0:10:58.83,Default,,0,0,0,,I was trying to save ammo.
-Dialogue: 0,0:10:58.83,0:11:00.70,Default,,0,0,0,,Hmm.
-Dialogue: 0,0:11:00.70,0:11:02.83,Default,,0,0,0,,So what's your setting now, anyway?
-Dialogue: 0,0:11:02.83,0:11:05.75,Default,,0,0,0,,Only Masters unaffiliated with\Nthe Triangle of Wisdom.
-Dialogue: 0,0:11:05.75,0:11:10.79,Default,,0,0,0,,Tian members of the Royal Guard have gone\Nthrough and are standing by on the outside.
-Dialogue: 0,0:11:10.79,0:11:16.91,Default,,0,0,0,,Good idea. Killing a tian outside of war\Ngets you on the wanted list, after all.
-Dialogue: 0,0:11:16.91,0:11:20.95,Default,,0,0,0,,Oh, right--could you tweak your setting a bit?
-Dialogue: 0,0:11:20.95,0:11:22.41,Default,,0,0,0,,In what way?
-Dialogue: 0,0:11:22.41,0:11:25.08,Default,,0,0,0,,Ray Starling goes through.
-Dialogue: 0,0:11:26.33,0:11:27.45,Default,,0,0,0,,Why?
-Dialogue: 0,0:11:27.45,0:11:31.83,Default,,0,0,0,,Because I'm going to fight him, duh.
-Dialogue: 0,0:11:31.83,0:11:33.04,Default,,0,0,0,,Got it, si--
-Dialogue: 0,0:11:33.04,0:11:36.87,Default,,0,0,0,,In here, you call me "Leader," Yu.
-Dialogue: 0,0:11:38.33,0:11:40.95,Default,,0,0,0,,Yes, Leader.
-Dialogue: 0,0:11:53.16,0:11:55.79,Default,,0,0,0,,Another fine spectacle!
-Dialogue: 0,0:11:55.79,0:11:58.33,Default,,0,0,0,,You must be Franklin.
-Dialogue: 0,0:11:58.33,0:12:01.25,Default,,0,0,0,,The one and only, in the flesh!
-Dialogue: 0,0:12:01.25,0:12:04.37,Default,,0,0,0,,We are taking back Her Highness Elizabeth.
-Dialogue: 0,0:12:04.37,0:12:06.66,Default,,0,0,0,,Now {\i1}that's {\i0}a problem.
-Dialogue: 0,0:12:06.66,0:12:09.79,Default,,0,0,0,,Then we'll do so by force.
-Dialogue: 0,0:12:09.79,0:12:11.87,Default,,0,0,0,,You can attack me?
-Dialogue: 0,0:12:11.87,0:12:19.87,Default,,0,0,0,,Fear not. We of the Royal Guard are bound by\Nmagic that prevents us from harming royalty.
-Dialogue: 0,0:12:19.87,0:12:23.20,Default,,0,0,0,,Wow! I'm kinda jealous.
-Dialogue: 0,0:12:23.20,0:12:27.33,Default,,0,0,0,,But it pains me to turn my\Nblade against the princess,
-Dialogue: 0,0:12:27.33,0:12:30.08,Default,,0,0,0,,so I would appreciate your letting her go.
-Dialogue: 0,0:12:31.91,0:12:34.04,Default,,0,0,0,,Screw {\i1}that{\i0}!
-Dialogue: 0,0:12:35.16,0:12:37.20,Default,,0,0,0,,Grand Cross!
-Dialogue: 0,0:12:47.41,0:12:53.20,Default,,0,0,0,,That was close. Good thing\NI had that Lifesaving Brooch.
-Dialogue: 0,0:12:53.20,0:12:56.08,Default,,0,0,0,,That Superior Killer...
-Dialogue: 0,0:12:56.08,0:12:58.79,Default,,0,0,0,,I'm really piling on the ol' expenses today.
-Dialogue: 0,0:12:58.79,0:13:00.66,Default,,0,0,0,,Charge!
-Dialogue: 0,0:13:03.58,0:13:07.29,Default,,0,0,0,,How convenient--right when I wanted\Nto take this baby out for a test drive.
-Dialogue: 0,0:13:07.29,0:13:10.20,Default,,0,0,0,,Call: RSK!
-Dialogue: 0,0:13:17.66,0:13:24.79,Default,,0,0,0,,I, Yuri Gautier, was born into an upper-class\Nfamily in the south of France.
-Dialogue: 0,0:13:24.79,0:13:29.54,Default,,0,0,0,,My father was a wealthy man\Nwho'd made a fortune in his lifetime.
-Dialogue: 0,0:13:29.54,0:13:35.66,Default,,0,0,0,,My mother, once an actress on the stage,\Nwas beautiful and kind.
-Dialogue: 0,0:13:35.66,0:13:41.08,Default,,0,0,0,,I would brag about my much-older sister,\Ngifted with both good looks and brains.
-Dialogue: 0,0:13:41.08,0:13:45.70,Default,,0,0,0,,Seen from the outside, we may well\Nhave been a family to be envied,
-Dialogue: 0,0:13:45.70,0:13:49.45,Default,,0,0,0,,but from my inside perspective,\Nthings were quite different.
-Dialogue: 0,0:13:49.45,0:13:53.75,Default,,0,0,0,,My father was domineering\Nand took it out on my mother.
-Dialogue: 0,0:13:53.75,0:14:00.16,Default,,0,0,0,,My mother bore it all with nary a\Nharsh word or action toward us girls.
-Dialogue: 0,0:14:00.16,0:14:08.08,Default,,0,0,0,,My sister, though always kind to me,\Nseemed to have worries of her own.
-Dialogue: 0,0:14:08.08,0:14:12.12,Default,,0,0,0,,One day, after our pet iguana died,\Nour grandfather made a plaster likeness of it
-Dialogue: 0,0:14:12.12,0:14:15.37,Default,,0,0,0,,for my grieving sister.
-Dialogue: 0,0:14:15.37,0:14:19.08,Default,,0,0,0,,That led to her learning the\Ncraft from our grandfather
-Dialogue: 0,0:14:19.08,0:14:22.91,Default,,0,0,0,,and making plaster animals of her own.
-Dialogue: 0,0:14:22.91,0:14:25.25,Default,,0,0,0,,How long can you keep doing this?
-Dialogue: 0,0:14:25.25,0:14:28.25,Default,,0,0,0,,Your future husband has already\Nbeen chosen for you--
-Dialogue: 0,0:14:28.25,0:14:31.37,Default,,0,0,0,,he'll never love you if you stink of plaster!
-Dialogue: 0,0:14:32.54,0:14:35.95,Default,,0,0,0,,And so my sister left.
-Dialogue: 0,0:14:35.95,0:14:40.45,Default,,0,0,0,,My mother and father blamed\Neach other for her leaving,
-Dialogue: 0,0:14:40.45,0:14:44.50,Default,,0,0,0,,and reached the obvious conclusion: Divorce.
-Dialogue: 0,0:14:44.50,0:14:49.16,Default,,0,0,0,,I had only one thought\Nduring these early years...
-Dialogue: 0,0:14:49.16,0:14:52.83,Default,,0,0,0,,...that I should have protected them better.
-Dialogue: 0,0:14:52.83,0:14:57.91,Default,,0,0,0,,Both my mother... and my sister.
-Dialogue: 0,0:14:59.79,0:15:07.54,Default,,0,0,0,,If I'd kept them safe from their tormentor,\Nthis never would have happened.
-Dialogue: 0,0:15:07.54,0:15:13.08,Default,,0,0,0,,If I could have been like a knight in the plays\Nmy mother used to take me to,
-Dialogue: 0,0:15:13.08,0:15:18.50,Default,,0,0,0,,a strong man who could have protected them...
-Dialogue: 0,0:15:18.50,0:15:24.00,Default,,0,0,0,,But I understood this fervent wish\Nwas one that would never be granted.
-Dialogue: 0,0:15:25.08,0:15:28.16,Default,,0,0,0,,Then, half a year after my parents' divorce,
-Dialogue: 0,0:15:28.16,0:15:32.29,Default,,0,0,0,,I came across a world that could\Nmake that wish come true.
-Dialogue: 0,0:15:32.29,0:15:35.66,Default,,0,0,0,,{\an8}"{\i1}Infinite Dendrogram {\i0}offers a new world\Nand your own unique possibilities."
-Dialogue: 0,0:15:35.95,0:15:42.00,Default,,0,0,0,,I wanted Hugo to be the embodiment\Nof my childhood wish,
-Dialogue: 0,0:15:42.00,0:15:47.00,Default,,0,0,0,,a knight that would defeat any tragedies\Nthat threaten helpless women.
-Dialogue: 0,0:15:48.83,0:15:51.00,Default,,0,0,0,,Hugo, are you all right?
-Dialogue: 0,0:15:51.00,0:15:53.33,Default,,0,0,0,,Yes, fine.
-Dialogue: 0,0:15:53.33,0:15:56.79,Default,,0,0,0,,If you're fretting this much, we can still quit.
-Dialogue: 0,0:15:56.79,0:15:58.87,Default,,0,0,0,,No...
-Dialogue: 0,0:15:58.87,0:16:03.29,Default,,0,0,0,,This way will be far less\Ndamaging in the long term.
-Dialogue: 0,0:16:03.29,0:16:08.79,Default,,0,0,0,,If we make the kingdom surrender now,\Nwe can avoid a pointless war.
-Dialogue: 0,0:16:08.79,0:16:12.62,Default,,0,0,0,,Besides, we're only targeting Masters.
-Dialogue: 0,0:16:12.62,0:16:15.25,Default,,0,0,0,,It seems so hard on you.
-Dialogue: 0,0:16:15.25,0:16:17.91,Default,,0,0,0,,Thanks for your concern.
-Dialogue: 0,0:16:17.91,0:16:23.91,Default,,0,0,0,,But--and this is personal on\Nmy part--I want to help him.
-Dialogue: 0,0:16:23.91,0:16:26.75,Default,,0,0,0,,I'll be with you, Hugo.
-Dialogue: 0,0:16:28.66,0:16:30.58,Default,,0,0,0,,Thanks.
-Dialogue: 0,0:16:30.58,0:16:34.87,Default,,0,0,0,,I'm renouncing the role that Hugo's been given.
-Dialogue: 0,0:16:35.83,0:16:38.04,Default,,0,0,0,,You came, Ray.
-Dialogue: 0,0:16:42.20,0:16:45.45,Default,,0,0,0,,"No Master shall pass beyond this point."
-Dialogue: 0,0:16:45.45,0:16:49.33,Default,,0,0,0,,Do you want me here or not, Hugo?
-Dialogue: 0,0:16:49.33,0:16:52.08,Default,,0,0,0,,I'm not sure myself.
-Dialogue: 0,0:16:52.08,0:16:54.00,Default,,0,0,0,,Where's Franklin?
-Dialogue: 0,0:16:54.00,0:16:58.75,Default,,0,0,0,,Beyond this gate, battling the\NKnights of the Royal Guard.
-Dialogue: 0,0:16:58.75,0:17:01.54,Default,,0,0,0,,Then we're going through, too.
-Dialogue: 0,0:17:01.54,0:17:06.41,Default,,0,0,0,,You're free to pass, but I can't\Nlet your friends through.
-Dialogue: 0,0:17:06.41,0:17:08.16,Default,,0,0,0,,Why just me?
-Dialogue: 0,0:17:08.16,0:17:11.95,Default,,0,0,0,,The boss wants to fight you himself.
-Dialogue: 0,0:17:11.95,0:17:15.58,Default,,0,0,0,,Franklin does? What for?
-Dialogue: 0,0:17:18.58,0:17:21.00,Default,,0,0,0,,You go on ahead, Ray.
-Dialogue: 0,0:17:22.00,0:17:26.83,Default,,0,0,0,,You've got enough to worry about\Non both sides of the gate.
-Dialogue: 0,0:17:26.83,0:17:33.41,Default,,0,0,0,,Hurry on through. I'll take care\Nof this end in your place.
-Dialogue: 0,0:17:33.41,0:17:37.66,Default,,0,0,0,,I know this is a friend of yours\Nwho fought at your side yesterday.
-Dialogue: 0,0:17:37.66,0:17:39.87,Default,,0,0,0,,Which is why I can say this:
-Dialogue: 0,0:17:39.87,0:17:43.41,Default,,0,0,0,,If you don't make it in time, you'll regret it.
-Dialogue: 0,0:17:43.41,0:17:46.91,Default,,0,0,0,,So you'd better get a move on, Ray.
-Dialogue: 0,0:17:46.91,0:17:50.66,Default,,0,0,0,,Thanks, Rook. He's all yours.
-Dialogue: 0,0:17:50.66,0:17:52.41,Default,,0,0,0,,I got this!
-Dialogue: 0,0:17:56.91,0:17:58.04,Default,,0,0,0,,Hugo!
-Dialogue: 0,0:17:58.04,0:18:01.54,Default,,0,0,0,,I apologize for going back on my word, Ray,
-Dialogue: 0,0:18:01.54,0:18:04.41,Default,,0,0,0,,but would you join me in a single\Nexchange of all-out blows?
-Dialogue: 0,0:18:04.41,0:18:08.54,Default,,0,0,0,,Sure. There's a lot I want to ask\Nand a lot I want to say,
-Dialogue: 0,0:18:08.54,0:18:11.37,Default,,0,0,0,,but right now, let's go with one attack each!
-Dialogue: 0,0:18:11.37,0:18:12.95,Default,,0,0,0,,{\i1}Merci.{\i0}
-Dialogue: 0,0:18:13.83,0:18:15.75,Default,,0,0,0,,Motor Slash!
-Dialogue: 0,0:18:17.12,0:18:20.04,Default,,0,0,0,,Counter Absorption!
-Dialogue: 0,0:18:22.70,0:18:25.41,Default,,0,0,0,,Vengeance is Mine!
-Dialogue: 0,0:18:28.54,0:18:31.45,Default,,0,0,0,,So he used it.
-Dialogue: 0,0:18:31.45,0:18:40.37,Default,,0,0,0,,Using Counter Absorption now leaves Ray with\Nshackles he can't ignore in the fight to come.
-Dialogue: 0,0:18:43.20,0:18:48.54,Default,,0,0,0,,Seriously... why am I so...? How could I--?
-Dialogue: 0,0:18:48.54,0:18:51.29,Default,,0,0,0,,For you, that was--
-Dialogue: 0,0:18:55.58,0:18:59.04,Default,,0,0,0,,Sorry. You were wide open.
-Dialogue: 0,0:19:02.75,0:19:04.54,Default,,0,0,0,,Little Flare!
-Dialogue: 0,0:19:04.54,0:19:06.62,Default,,0,0,0,,You coward.
-Dialogue: 0,0:19:06.62,0:19:12.20,Default,,0,0,0,,That's uncalled for. I told you, didn't I?\NThat I'd take care of this end?
-Dialogue: 0,0:19:12.20,0:19:16.16,Default,,0,0,0,,It's not my fault you were lost in thought.
-Dialogue: 0,0:19:16.16,0:19:20.54,Default,,0,0,0,,For someone who's Ray's friend,\Nyou're nothing like him.
-Dialogue: 0,0:19:20.54,0:19:25.70,Default,,0,0,0,,Maybe so. Maybe that's why I admire him so much.
-Dialogue: 0,0:19:25.70,0:19:29.66,Default,,0,0,0,,Also, I think I hate you.
-Dialogue: 0,0:19:29.66,0:19:33.58,Default,,0,0,0,,That's the first time you've\Never said you hated anyone!
-Dialogue: 0,0:19:34.50,0:19:37.62,Default,,0,0,0,,So it's hate at first sight, huh?
-Dialogue: 0,0:19:37.62,0:19:41.79,Default,,0,0,0,,That's right. But you really are loathsome.
-Dialogue: 0,0:19:41.79,0:19:47.20,Default,,0,0,0,,You're so indecisive, so uppity--\Nlike a certain someone.
-Dialogue: 0,0:19:47.20,0:19:49.79,Default,,0,0,0,,You're talking nonsense.
-Dialogue: 0,0:19:49.79,0:19:51.95,Default,,0,0,0,,Am I, though?
-Dialogue: 0,0:19:51.95,0:19:54.45,Default,,0,0,0,,I haven't the slightest idea what you mean.
-Dialogue: 0,0:19:54.45,0:19:59.41,Default,,0,0,0,,Regardless, I'll freeze you where you stand!
-Dialogue: 0,0:20:01.91,0:20:04.25,Default,,0,0,0,,I cannot let you pass.
-Dialogue: 0,0:20:04.25,0:20:10.04,Default,,0,0,0,,As a member of the Triangle of Wisdom...\Nand as the thorn that protects him.
-Dialogue: 0,0:20:10.04,0:20:17.66,Default,,0,0,0,,I see. Then I'll defeat you with all\NI have and force my way through.
-Dialogue: 0,0:20:17.66,0:20:22.83,Default,,0,0,0,,As Ray's friend--and as myself.
-Dialogue: 0,0:20:22.83,0:20:28.12,Default,,0,0,0,,High Pilot Hugo Lesseps and his Embryo, Cocytus!
-Dialogue: 0,0:20:28.12,0:20:35.16,Default,,0,0,0,,Pimp Rook Holmes, his Embryo, Babylon,\Nand his tamed beasts Marilyn and Audrey!
-Dialogue: 0,0:20:35.16,0:20:37.66,Default,,0,0,0,,Now we fight...
-Dialogue: 0,0:20:37.66,0:20:39.79,Default,,0,0,0,,...fair and square!
-Dialogue: 0,0:20:39.79,0:20:41.91,Default,,0,0,0,,The test went well.
-Dialogue: 0,0:20:41.91,0:20:46.41,Default,,0,0,0,,Its attacks were a little on the\Nweak side, but what can you do?
-Dialogue: 0,0:20:46.41,0:20:48.95,Default,,0,0,0,,Sir Lindos! We'll use the stack!
-Dialogue: 0,0:20:55.29,0:20:57.20,Default,,0,0,0,,--Grand Cross!\N--Grand Cross!
-Dialogue: 0,0:20:59.75,0:21:05.20,Default,,0,0,0,,Not bad, not bad at all.\NCompletely pointless, though.
-Dialogue: 0,0:21:08.87,0:21:11.87,Default,,0,0,0,,Impossible! The stack had no effect?!
-Dialogue: 0,0:21:11.87,0:21:16.08,Default,,0,0,0,,If only you hadn't been Paladins with\Nyour Holy element and your swords,
-Dialogue: 0,0:21:16.08,0:21:18.75,Default,,0,0,0,,you might have actually stood a chance.
-Dialogue: 0,0:21:18.75,0:21:21.70,Default,,0,0,0,,After all, this RSK here...
-Dialogue: 0,0:21:25.66,0:21:28.87,Default,,0,0,0,,He's here! He's here, he's here, he's here!
-Dialogue: 0,0:21:28.87,0:21:30.62,Default,,0,0,0,,Here he is!
-Dialogue: 0,0:21:31.83,0:21:34.12,Default,,0,0,0,,Ray?! What are {\i1}you {\i0}doing here?
-Dialogue: 0,0:21:34.12,0:21:38.83,Default,,0,0,0,,This whole abducting-children thing\Nleaves a bad taste in my mouth.
-Dialogue: 0,0:21:38.83,0:21:42.95,Default,,0,0,0,,And I figured I'd crush {\i1}him{\i0},\Ntoo, while I'm at it!
-Dialogue: 0,0:21:44.12,0:21:47.08,Default,,0,0,0,,Excellent--truly excellent!
-Dialogue: 0,0:21:47.08,0:21:53.62,Default,,0,0,0,,You don't often see people as earnest\Nas you here in {\i1}Infinite Dendrogram{\i0}.
-Dialogue: 0,0:21:53.62,0:21:56.29,Default,,0,0,0,,It'll be {\i1}so {\i0}worth it to snap you in two!
-Dialogue: 0,0:21:56.29,0:22:02.20,Default,,0,0,0,,You'll pay, Flamingo--for today\N{\i1}and {\i0}for what you did yesterday!
-Dialogue: 0,0:22:04.12,0:22:10.41,Default,,0,0,0,,Then I'll have {\i1}you {\i0}pay for what\N{\i1}you {\i0}did last {\i1}week{\i0}, Dog-Ears.
-Dialogue: 0,0:23:44.41,0:23:45.45,Default,,0,0,0,,"The Right Arm of the Victor"
-Dialogue: 0,0:23:45.45,0:23:47.66,Default,,0,0,0,,"The Right Arm of the Victor"\N"The Right Arm of the Victor."
-Dialogue: 0,0:23:47.66,0:23:48.33,Default,,0,0,0,,"The Right Arm of the Victor"
+Dialogue: 0,0:00:19.72,0:00:21.03,main,Taichi,0000,0000,0000,,Isn't this...
+Dialogue: 0,0:00:26.80,0:00:27.98,main,Lemiya,0000,0000,0000,,I'm coming in.
+Dialogue: 0,0:00:29.91,0:00:31.42,main,Lemiya,0000,0000,0000,,You're awake?
+Dialogue: 0,0:00:31.42,0:00:34.87,main,Taichi,0000,0000,0000,,Lemiya? Why am I back at your place?
+Dialogue: 0,0:02:10.52,0:02:14.69,sign_3130_5_Episode_5__A_Hin,Screen,0000,0000,0000,,{\fad(859,521)}Episode 5       A Hint of Schemes
+Dialogue: 0,0:02:10.76,0:02:14.20,top,Taichi,0000,0000,0000,,Man, I'm full!
+Dialogue: 0,0:02:14.20,0:02:16.36,top,Taichi,0000,0000,0000,,Thanks for the meal!
+Dialogue: 0,0:02:16.92,0:02:19.57,main,Lemiya,0000,0000,0000,,You easily ate enough for five people.
+Dialogue: 0,0:02:19.57,0:02:20.89,main,Taichi,0000,0000,0000,,That much?!
+Dialogue: 0,0:02:20.89,0:02:23.07,main,Taichi,0000,0000,0000,,I knew I was eating more than usual,
+Dialogue: 0,0:02:23.07,0:02:24.62,main,Taichi,0000,0000,0000,,but I didn't realize it was that bad.
+Dialogue: 0,0:02:24.62,0:02:29.75,main,Lemiya,0000,0000,0000,,The reason you were able to eat so much \Nis also related to why you're here.
+Dialogue: 0,0:02:34.63,0:02:36.07,main,,0000,0000,0000,,Long story short...
+Dialogue: 0,0:02:38.77,0:02:43.43,main,,0000,0000,0000,,Taichi, you depleted your magic power\Nand fell comatose.
+Dialogue: 0,0:02:43.83,0:02:44.93,main,Taichi,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:44.93,0:02:48.12,main,Lemiya,0000,0000,0000,,You consumed all the magic power\Nwithin your body.
+Dialogue: 0,0:02:48.12,0:02:50.62,main,Lemiya,0000,0000,0000,,You've been asleep for an entire week.
+Dialogue: 0,0:02:50.62,0:02:51.80,main,Taichi,0000,0000,0000,,A whole week?!
+Dialogue: 0,0:02:51.80,0:02:54.79,main,Lemiya,0000,0000,0000,,Generally, you can recover \Nexpended magic power overnight.
+Dialogue: 0,0:02:55.35,0:03:01.32,main,Lemiya,0000,0000,0000,,But when it's completely spent, it takes \Nsignificant time to regenerate from scratch.
+Dialogue: 0,0:03:01.32,0:03:03.49,main,Taichi,0000,0000,0000,,I didn't know.
+Dialogue: 0,0:03:03.49,0:03:08.69,main,Lemiya,0000,0000,0000,,Rin and Myura both assumed you passed out\Nfrom exhaustion and injury at first.
+Dialogue: 0,0:03:08.69,0:03:12.07,main,Lemiya,0000,0000,0000,,They had a doctor look at you to be sure,\Nand they believed the same.
+Dialogue: 0,0:03:12.87,0:03:16.67,main,Lemiya,0000,0000,0000,,Yet one day and then another passed...
+Dialogue: 0,0:03:17.59,0:03:20.51,main,Lemiya,0000,0000,0000,,By the third night,\N they couldn't take it any more
+Dialogue: 0,0:03:20.51,0:03:24.43,main,,0000,0000,0000,,and carried your unconscious body back here.
+Dialogue: 0,0:03:26.98,0:03:30.17,main,Lemiya,0000,0000,0000,,I've never seen those two panic like that.
+Dialogue: 0,0:03:30.17,0:03:33.44,main,Lemiya,0000,0000,0000,,They're both looking into something \Nback in town right now.
+Dialogue: 0,0:03:33.44,0:03:35.15,main,Lemiya,0000,0000,0000,,Make sure you thank them\Nwhen they're back.
+Dialogue: 0,0:03:35.52,0:03:36.94,main,Taichi,0000,0000,0000,,Yeah, of course I will.
+Dialogue: 0,0:03:37.49,0:03:38.84,main,Taichi,0000,0000,0000,,Also, Lemiya...
+Dialogue: 0,0:03:40.28,0:03:41.40,main,Taichi,0000,0000,0000,,Thank you, too.
+Dialogue: 0,0:03:43.00,0:03:44.49,main,Lemiya,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:03:46.07,0:03:48.16,main,Lemiya,0000,0000,0000,,On that note, though, Taichi...
+Dialogue: 0,0:03:48.85,0:03:51.02,main,Lemiya,0000,0000,0000,,What in the world happened \Nin the northern forest?
+Dialogue: 0,0:03:58.37,0:03:59.47,main,Lemiya,0000,0000,0000,,I knew it.
+Dialogue: 0,0:03:59.47,0:04:01.63,main,Lemiya,0000,0000,0000,,That was the Crimson Pact.
+Dialogue: 0,0:04:02.47,0:04:04.30,main,Taichi,0000,0000,0000,,Crimson Pact?
+Dialogue: 0,0:04:04.30,0:04:07.44,main,Lemiya,0000,0000,0000,,It's magic that uses\Nthe blood of men and beasts.
+Dialogue: 0,0:04:07.44,0:04:11.23,main,Lemiya,0000,0000,0000,,It's considered forbidden magic now\Ndue to its cruelty.
+Dialogue: 0,0:04:12.99,0:04:15.93,main,Lemiya,0000,0000,0000,,Feed an orb imbued with that magic to anyone,
+Dialogue: 0,0:04:15.93,0:04:19.46,main,,0000,0000,0000,,and it'll draw out several dozen times\Ntheir normal magic power.
+Dialogue: 0,0:04:20.51,0:04:22.92,main,Taichi,0000,0000,0000,,I couldn't even make a dent in it.
+Dialogue: 0,0:04:22.92,0:04:26.66,main,Taichi,0000,0000,0000,,To be honest, I thought I really \Nwas going to be a goner this time.
+Dialogue: 0,0:04:27.60,0:04:29.83,main,Taichi,0000,0000,0000,,But then in that moment...
+Dialogue: 0,0:04:30.50,0:04:32.34,flashback,Aerial,0000,0000,0000,,My name is Aerial.
+Dialogue: 0,0:04:32.94,0:04:34.54,flashback,Aerial,0000,0000,0000,,I'm the Wind Spirit.
+Dialogue: 0,0:04:35.89,0:04:37.58,main,Lemiya,0000,0000,0000,,Aerial?!
+Dialogue: 0,0:04:39.03,0:04:41.30,main,Lemiya,0000,0000,0000,,You're sure that's what \Nthe voice said to you?!
+Dialogue: 0,0:04:41.78,0:04:43.88,main,Taichi,0000,0000,0000,,Y-Yeah?
+Dialogue: 0,0:04:46.08,0:04:47.78,main,Lemiya,0000,0000,0000,,How can this be?
+Dialogue: 0,0:04:48.72,0:04:50.26,main,Lemiya,0000,0000,0000,,I don't believe it.
+Dialogue: 0,0:04:50.54,0:04:52.24,main,Taichi,0000,0000,0000,,Hey, Lemiya...
+Dialogue: 0,0:04:52.24,0:04:55.19,main,Taichi,0000,0000,0000,,Could you explain it to me \Nso I can understand, too?
+Dialogue: 0,0:04:55.89,0:04:58.72,main,Lemiya,0000,0000,0000,,Taichi, you remember how I told you
+Dialogue: 0,0:04:58.72,0:05:02.76,main,,0000,0000,0000,,that you're a Unique Magician who \Nuses sorcery, not magic, right?
+Dialogue: 0,0:05:02.76,0:05:04.84,main,Lemiya,0000,0000,0000,,And that we didn't know what type you were?
+Dialogue: 0,0:05:05.25,0:05:06.51,main,Taichi,0000,0000,0000,,Yeah?
+Dialogue: 0,0:05:06.51,0:05:08.37,main,Lemiya,0000,0000,0000,,Well, now that's clear.
+Dialogue: 0,0:05:09.09,0:05:10.53,main,Taichi,0000,0000,0000,,Seriously?
+Dialogue: 0,0:05:10.92,0:05:14.75,main,Lemiya,0000,0000,0000,,Listen carefully, Taichi. You're a—
+Dialogue: 0,0:05:19.73,0:05:21.17,main,Lodra,0000,0000,0000,,Oh?
+Dialogue: 0,0:05:21.17,0:05:25.84,main,Lodra,0000,0000,0000,,He eliminated the Red Elemental \Nwith only the power of wind?
+Dialogue: 0,0:05:25.84,0:05:29.22,main,Lodra,0000,0000,0000,,That young man is truly intriguing.
+Dialogue: 0,0:05:30.00,0:05:34.39,main,Lodra,0000,0000,0000,,This was worth the great price\Nyou paid, Cassim.
+Dialogue: 0,0:05:35.65,0:05:39.92,main,Lodra,0000,0000,0000,,Now, I have another job for you to do.
+Dialogue: 0,0:05:39.92,0:05:43.03,main,Lodra,0000,0000,0000,,What? It's just a little prank.
+Dialogue: 0,0:05:43.03,0:05:47.72,main,Lodra,0000,0000,0000,,A trivial affair of no strategic importance.
+Dialogue: 0,0:05:47.72,0:05:50.74,main,Lodra,0000,0000,0000,,Though I think it'll relieve \Nsome of your indignation.
+Dialogue: 0,0:05:52.37,0:05:53.51,main,Lodra,0000,0000,0000,,Hmm...
+Dialogue: 0,0:05:56.80,0:06:00.15,main,Lodra,0000,0000,0000,,Aren't her reins a little loose?
+Dialogue: 0,0:06:00.96,0:06:04.09,main,Cassim,0000,0000,0000,,But I think she's performed \Nadequately for her pay.
+Dialogue: 0,0:06:04.09,0:06:08.97,main,Lodra,0000,0000,0000,,And I'm telling you that's not enough.
+Dialogue: 0,0:06:19.10,0:06:24.67,main,Lodra,0000,0000,0000,,We need you to continue \Nserving as Cassim's pawn,
+Dialogue: 0,0:06:24.67,0:06:27.24,main,,0000,0000,0000,,so I've made some slight modifications.
+Dialogue: 0,0:06:31.52,0:06:34.73,main,Lodra,0000,0000,0000,,Remember, what's about to begin\Nis but our first step.
+Dialogue: 0,0:06:34.73,0:06:38.79,main,Lodra,0000,0000,0000,,The grand first step \Ntoward realizing our goal.
+Dialogue: 0,0:06:39.33,0:06:41.85,main,Cassim,0000,0000,0000,,I understand, Your Eminence.
+Dialogue: 0,0:06:44.40,0:06:46.73,main,Milo,0000,0000,0000,,I'm sick of waiting.
+Dialogue: 0,0:06:46.73,0:06:49.08,main,Melo,0000,0000,0000,,Let's hurry up and start the carnival.
+Dialogue: 0,0:06:49.56,0:06:53.42,main,Lodra,0000,0000,0000,,In that case, I suppose it is \Ntime for the carnival to begin.
+Dialogue: 0,0:06:53.42,0:06:56.30,main,Lodra,0000,0000,0000,,We'll have to send him an invitation.
+Dialogue: 0,0:07:04.15,0:07:07.28,main,Taichi,0000,0000,0000,,Summoner, huh?
+Dialogue: 0,0:07:08.08,0:07:10.08,flashback,Lemiya,0000,0000,0000,,Listen carefully, Taichi.
+Dialogue: 0,0:07:10.08,0:07:13.20,flashback,,0000,0000,0000,,You're a Summoner.
+Dialogue: 0,0:07:13.65,0:07:15.66,flashback,Taichi,0000,0000,0000,,A Summoner?
+Dialogue: 0,0:07:15.66,0:07:18.50,flashback,Lemiya,0000,0000,0000,,A Shaman would be most similar to it.
+Dialogue: 0,0:07:19.00,0:07:21.37,flashback,Lemiya,0000,0000,0000,,You forge pacts with specific spirits,
+Dialogue: 0,0:07:21.37,0:07:25.72,flashback,,0000,0000,0000,,and you're granted the right to use stronger \Nmagic based on your bond with them.
+Dialogue: 0,0:07:26.45,0:07:30.17,flashback,Lemiya,0000,0000,0000,,Shamans and Summoners are \Nboth the same in that regard.
+Dialogue: 0,0:07:30.17,0:07:33.27,flashback,Lemiya,0000,0000,0000,,Now, can you tell what actually \Nseparates the two of them?
+Dialogue: 0,0:07:34.68,0:07:36.44,flashback,Lemiya,0000,0000,0000,,It's simple.
+Dialogue: 0,0:07:36.44,0:07:38.99,flashback,Lemiya,0000,0000,0000,,It's whether or not they can hear them.
+Dialogue: 0,0:07:38.99,0:07:41.30,flashback,Lemiya,0000,0000,0000,,Whether or not they can see them.
+Dialogue: 0,0:07:42.30,0:07:45.80,flashback,Lemiya,0000,0000,0000,,In our world, spirits are\Na higher order of being.
+Dialogue: 0,0:07:46.40,0:07:50.09,flashback,Lemiya,0000,0000,0000,,They're above even dragons, \Nwhich are superior to humans.
+Dialogue: 0,0:07:50.66,0:07:54.11,flashback,Lemiya,0000,0000,0000,,Because of that, \Nthey're fundamentally invisible to us.
+Dialogue: 0,0:07:54.72,0:07:57.98,flashback,Lemiya,0000,0000,0000,,So if you heard the voice of a spirit,
+Dialogue: 0,0:07:58.44,0:08:00.29,flashback,Lemiya,0000,0000,0000,,then it's almost guaranteed.
+Dialogue: 0,0:08:01.71,0:08:03.82,flashback,Lemiya,0000,0000,0000,,Also, there's one more thing
+Dialogue: 0,0:08:03.82,0:08:07.88,flashback,,0000,0000,0000,,that makes Summoners different \Nfrom other magicians and Shamans.
+Dialogue: 0,0:08:08.53,0:08:13.51,flashback,Lemiya,0000,0000,0000,,That's the fact that spirits execute magic\Non the sorcerer's behalf.
+Dialogue: 0,0:08:14.84,0:08:18.72,flashback,Lemiya,0000,0000,0000,,Since the magic doesn't use \Nthe sorcerer as a catalyst,
+Dialogue: 0,0:08:18.72,0:08:21.72,flashback,,0000,0000,0000,,it gets released with the spirit's \Nfull undiminished force.
+Dialogue: 0,0:08:23.54,0:08:26.27,main,Taichi,0000,0000,0000,,That couldn't sound more like cheating.
+Dialogue: 0,0:08:27.14,0:08:30.23,italics,Taichi,0000,0000,0000,,But if the voice I heard\Nreally was a spirit...
+Dialogue: 0,0:08:30.87,0:08:32.09,main,Almeda,0000,0000,0000,,Taichi!
+Dialogue: 0,0:08:32.61,0:08:33.80,main,Taichi,0000,0000,0000,,Almeda.
+Dialogue: 0,0:08:33.80,0:08:35.87,main,Almeda,0000,0000,0000,,Are you okay now?
+Dialogue: 0,0:08:35.87,0:08:40.09,main,Almeda,0000,0000,0000,,Rin and Myura said you weren't \Nwaking up, so I got worried.
+Dialogue: 0,0:08:40.09,0:08:41.90,main,Taichi,0000,0000,0000,,Yeah, I'm good now.
+Dialogue: 0,0:08:41.90,0:08:44.12,main,Almeda,0000,0000,0000,,That's great. What a relief.
+Dialogue: 0,0:08:44.12,0:08:46.06,main,Taichi,0000,0000,0000,,Sorry to worry you.
+Dialogue: 0,0:08:46.48,0:08:50.00,main,Taichi,0000,0000,0000,,By the way, do you know when Rin \Nand Myura should be back here?
+Dialogue: 0,0:08:50.00,0:08:52.11,main,Almeda,0000,0000,0000,,Sorry, I haven't heard.
+Dialogue: 0,0:08:52.11,0:08:54.93,main,Almeda,0000,0000,0000,,They haven't been back since \Nthey left early this morning.
+Dialogue: 0,0:08:54.93,0:08:56.87,main,Taichi,0000,0000,0000,,I see. Thanks.
+Dialogue: 0,0:08:57.72,0:08:59.85,main,Taichi,0000,0000,0000,,I'll go look for them outside, then.
+Dialogue: 0,0:08:59.85,0:09:01.37,main,Almeda,0000,0000,0000,,Take care.
+Dialogue: 0,0:09:01.37,0:09:03.21,main,Almeda,0000,0000,0000,,Don't push yourself, okay?
+Dialogue: 0,0:09:08.20,0:09:11.20,main,Taichi,0000,0000,0000,,Now, where would those two have gone?
+Dialogue: 0,0:09:11.20,0:09:12.57,main,Anastasia,0000,0000,0000,,Let go of me!
+Dialogue: 0,0:09:12.57,0:09:16.28,main,Anastasia,0000,0000,0000,,Sorry, but I don't have time \Nto deal with you people.
+Dialogue: 0,0:09:16.28,0:09:18.20,main,Man,0000,0000,0000,,Don't say that, lady.
+Dialogue: 0,0:09:18.20,0:09:21.60,main,Man,0000,0000,0000,,That's right! What's wrong with \Nspending some time with us?
+Dialogue: 0,0:09:21.60,0:09:22.84,main,Taichi,0000,0000,0000,,Those guys!
+Dialogue: 0,0:09:21.60,0:09:23.79,top,Man,0000,0000,0000,,Given your getup, you want it too, right?
+Dialogue: 0,0:09:23.79,0:09:25.06,top,Man,0000,0000,0000,,Yeah, that's right!
+Dialogue: 0,0:09:24.09,0:09:26.90,main,Taichi,0000,0000,0000,,Hey, you need to cut it out already!
+Dialogue: 0,0:09:27.84,0:09:29.79,main,Anastasia,0000,0000,0000,,Jeez, you're late!
+Dialogue: 0,0:09:33.40,0:09:35.32,main,Taichi,0000,0000,0000,,Huh? Uh?
+Dialogue: 0,0:09:35.32,0:09:37.09,main,Anastasia,0000,0000,0000,,You made a promise, didn't you?
+Dialogue: 0,0:09:37.86,0:09:41.01,main,Anastasia,0000,0000,0000,,That you would keep me up all night long.
+Dialogue: 0,0:09:42.10,0:09:43.24,main,Man,0000,0000,0000,,Hey, brat!
+Dialogue: 0,0:09:43.24,0:09:45.98,main,Man,0000,0000,0000,,Don't just show up out of nowhere\Nand butt in on us!
+Dialogue: 0,0:09:46.35,0:09:47.36,main,Man,0000,0000,0000,,That's right!
+Dialogue: 0,0:09:47.36,0:09:48.77,main,Man,0000,0000,0000,,Don't interfere!
+Dialogue: 0,0:09:55.92,0:09:58.95,main,Taichi,0000,0000,0000,,What was that about showing up\Nout of nowhere?
+Dialogue: 0,0:10:00.48,0:10:01.61,main,Man,0000,0000,0000,,Get up!
+Dialogue: 0,0:10:01.61,0:10:02.97,main,Man,0000,0000,0000,,Let's beat it!
+Dialogue: 0,0:10:03.60,0:10:06.03,main,Anastasia,0000,0000,0000,,Thank you for saving me.
+Dialogue: 0,0:10:06.03,0:10:07.08,main,Taichi,0000,0000,0000,,Did I?
+Dialogue: 0,0:10:07.08,0:10:10.12,main,Taichi,0000,0000,0000,,It looked to me like you could \Nhave handled that by yourself.
+Dialogue: 0,0:10:10.12,0:10:11.13,main,Anastasia,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:11.13,0:10:13.82,main,Taichi,0000,0000,0000,,When that guy grabbed you,
+Dialogue: 0,0:10:13.82,0:10:17.01,main,,0000,0000,0000,,it looked like you just slipped free, \Ninstead of breaking his hold with force.
+Dialogue: 0,0:10:17.58,0:10:20.74,main,Taichi,0000,0000,0000,,Also, you easily kept up with me\Nwhen I suddenly spun around.
+Dialogue: 0,0:10:21.26,0:10:26.43,main,Taichi,0000,0000,0000,,More than anything, you weren't frightened \Nwhen you saw me send that guy flying.
+Dialogue: 0,0:10:27.73,0:10:29.85,main,Anastasia,0000,0000,0000,,I knew you'd notice.
+Dialogue: 0,0:10:30.74,0:10:32.19,main,Taichi,0000,0000,0000,,You knew?
+Dialogue: 0,0:10:32.19,0:10:35.23,main,Anastasia,0000,0000,0000,,We've actually met before.
+Dialogue: 0,0:10:35.23,0:10:38.91,main,Anastasia,0000,0000,0000,,That was the first time\Nanyone's been so rough with me.
+Dialogue: 0,0:10:38.91,0:10:41.75,main,Taichi,0000,0000,0000,,Rough?! Huh?!
+Dialogue: 0,0:10:42.85,0:10:47.04,main,Anastasia,0000,0000,0000,,You knocked me out with a \Nsingle blow to the stomach.
+Dialogue: 0,0:10:47.04,0:10:48.46,main,Taichi,0000,0000,0000,,Wait, you're...
+Dialogue: 0,0:10:53.76,0:10:55.88,main,Anastasia,0000,0000,0000,,I'm Anastasia.
+Dialogue: 0,0:10:55.88,0:11:00.47,main,Anastasia,0000,0000,0000,,The former assassin that you two captured \Non the back streets that night.
+Dialogue: 0,0:11:04.93,0:11:08.09,main,Taichi,0000,0000,0000,,So you've joined up with the guild now?
+Dialogue: 0,0:11:08.09,0:11:09.02,main,Anastasia,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:09.02,0:11:13.26,main,Anastasia,0000,0000,0000,,An assassin who's failed their mission\Nhas no other choice.
+Dialogue: 0,0:11:13.26,0:11:15.45,main,Taichi,0000,0000,0000,,So after doing some additional investigation
+Dialogue: 0,0:11:15.45,0:11:19.40,main,,0000,0000,0000,,into the case of stolen food and goods\Nthat we were looking into...
+Dialogue: 0,0:11:19.40,0:11:21.78,main,Anastasia,0000,0000,0000,,This manor stood out.
+Dialogue: 0,0:11:22.14,0:11:25.07,main,Taichi,0000,0000,0000,,Still, I'm surprised you dug up that much.
+Dialogue: 0,0:11:25.07,0:11:28.83,main,Anastasia,0000,0000,0000,,Well, yeah. I am a former assassin.
+Dialogue: 0,0:11:52.29,0:11:56.57,main,Taichi,0000,0000,0000,,Now, is there anything\Nwe could use as evidence?
+Dialogue: 0,0:12:06.47,0:12:07.58,main,Anastasia,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:12:09.16,0:12:10.60,main,Taichi,0000,0000,0000,,You've got to be kidding me!
+Dialogue: 0,0:12:17.28,0:12:20.17,main,Myura,0000,0000,0000,,It's nice to enjoy the nightlife\Nevery now and then.
+Dialogue: 0,0:12:20.64,0:12:21.34,main,Rin,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:21.34,0:12:26.20,main,Myura,0000,0000,0000,,Still, I can't believe these \Ngo for eight coppers apiece.
+Dialogue: 0,0:12:26.20,0:12:27.13,main,Rin,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:28.76,0:12:31.80,main,Myura,0000,0000,0000,,You're thinking about \NTaichi again, aren't you?
+Dialogue: 0,0:12:31.80,0:12:32.77,main,Rin,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:32.77,0:12:33.69,main,Rin,0000,0000,0000,,Huh?!
+Dialogue: 0,0:12:33.69,0:12:35.26,main,Myura,0000,0000,0000,,I knew it.
+Dialogue: 0,0:12:35.26,0:12:37.12,main,Myura,0000,0000,0000,,You're like an open book.
+Dialogue: 0,0:12:37.12,0:12:38.86,main,Rin,0000,0000,0000,,Uh, it's not that...
+Dialogue: 0,0:12:38.86,0:12:40.15,main,Myura,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:12:40.15,0:12:42.99,main,Myura,0000,0000,0000,,He'll be fine in Lemiya's care.
+Dialogue: 0,0:12:43.56,0:12:46.53,main,Myura,0000,0000,0000,,We have to focus on finishing \Nwhat we need to do right now.
+Dialogue: 0,0:12:48.44,0:12:49.35,main,Rin,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:52.24,0:12:54.83,main,Customer,0000,0000,0000,,That's just way too expensive!
+Dialogue: 0,0:12:54.83,0:12:57.08,main,Shop,0000,0000,0000,,There's nothing I can do about it, either!
+Dialogue: 0,0:12:57.08,0:12:59.63,main,Customer,0000,0000,0000,,But that's three times \Nwhat it cost yesterday!
+Dialogue: 0,0:12:59.63,0:13:02.97,main,Myura,0000,0000,0000,,Prices won't stop skyrocketing, huh?
+Dialogue: 0,0:13:02.97,0:13:08.14,main,Rin,0000,0000,0000,,We'll need to see if it's related to the \Nincrease in monsters, as Lemiya suspects.
+Dialogue: 0,0:13:08.77,0:13:09.85,main,Myura,0000,0000,0000,,By the way...
+Dialogue: 0,0:13:09.85,0:13:10.89,main,Rin,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:10.89,0:13:14.12,main,Myura,0000,0000,0000,,There are a few too many people \Naround to take them on here.
+Dialogue: 0,0:13:14.12,0:13:16.19,main,Myura,0000,0000,0000,,We should lead them to the outskirts...
+Dialogue: 0,0:13:25.90,0:13:27.66,main,Myura,0000,0000,0000,,Get away from here!
+Dialogue: 0,0:13:27.66,0:13:28.60,main,Myura,0000,0000,0000,,Right now!
+Dialogue: 0,0:13:46.64,0:13:48.68,main,Rin,0000,0000,0000,,You're finished!
+Dialogue: 0,0:13:53.04,0:13:54.36,main,Rin,0000,0000,0000,,Aero Armor!
+Dialogue: 0,0:14:05.61,0:14:07.68,main,Myura,0000,0000,0000,,Two versus four, huh?
+Dialogue: 0,0:14:07.68,0:14:09.28,main,Myura,0000,0000,0000,,But with you here...
+Dialogue: 0,0:14:09.28,0:14:11.38,main,Grammy,0000,0000,0000,,No, it's two versus five.
+Dialogue: 0,0:14:13.96,0:14:15.04,main,Myura,0000,0000,0000,,Grammy?!
+Dialogue: 0,0:14:18.62,0:14:19.86,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:14:20.63,0:14:24.67,main,Grammy,0000,0000,0000,,I really hate relying on this thing...
+Dialogue: 0,0:14:24.67,0:14:25.84,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:14:26.58,0:14:28.65,main,Grammy,0000,0000,0000,,But boss's orders.
+Dialogue: 0,0:14:28.65,0:14:30.25,main,Grammy,0000,0000,0000,,Don't blame me.
+Dialogue: 0,0:14:30.72,0:14:32.28,main,Rin,0000,0000,0000,,Hold on!
+Dialogue: 0,0:14:34.84,0:14:37.71,main,Grammy,0000,0000,0000,,I know you guys won't be able to beat her.
+Dialogue: 0,0:14:37.71,0:14:39.77,main,Grammy,0000,0000,0000,,So delay her and you've done well!
+Dialogue: 0,0:14:39.77,0:14:41.18,main,Rin,0000,0000,0000,,Hold up!
+Dialogue: 0,0:14:46.02,0:14:47.44,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:14:48.36,0:14:51.36,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:14:56.04,0:14:56.95,main,Anastasia,0000,0000,0000,,I knew it.
+Dialogue: 0,0:14:57.59,0:15:01.84,main,Anastasia,0000,0000,0000,,It looks like this underground tunnel\Nwas constructed using earth magic.
+Dialogue: 0,0:15:01.84,0:15:04.34,main,Taichi,0000,0000,0000,,If what's written here is true,
+Dialogue: 0,0:15:04.62,0:15:08.30,main,Taichi,0000,0000,0000,,then a horde of goblins \Nenhanced by Crimson Pacts
+Dialogue: 0,0:15:08.30,0:15:11.55,main,,0000,0000,0000,,are hiding out here under Azpire.
+Dialogue: 0,0:15:11.55,0:15:14.44,main,Anastasia,0000,0000,0000,,If they were to be unleashed on the city...
+Dialogue: 0,0:15:15.27,0:15:17.06,main,Taichi,0000,0000,0000,,We have to stop them!
+Dialogue: 0,0:15:17.99,0:15:18.89,main,Taichi,0000,0000,0000,,This smell!
+Dialogue: 0,0:15:23.78,0:15:24.77,main,Taichi,0000,0000,0000,,Oh, man...
+Dialogue: 0,0:15:25.32,0:15:26.43,main,Taichi,0000,0000,0000,,They must be up ahead!
+Dialogue: 0,0:15:26.43,0:15:27.23,main,Anastasia,0000,0000,0000,,Wait!
+Dialogue: 0,0:15:27.68,0:15:29.74,main,Anastasia,0000,0000,0000,,It might be trapped.
+Dialogue: 0,0:15:30.26,0:15:31.66,main,Anastasia,0000,0000,0000,,I'll open it.
+Dialogue: 0,0:15:35.51,0:15:36.45,main,Anastasia,0000,0000,0000,,Phew.
+Dialogue: 0,0:15:39.56,0:15:41.13,main,Anastasia,0000,0000,0000,,It's safe now.
+Dialogue: 0,0:15:41.13,0:15:42.84,main,Taichi,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:15:42.84,0:15:44.33,main,Anastasia,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:15:44.33,0:15:48.24,main,Taichi,0000,0000,0000,,Well, just realizing that you\N really are an assassin.
+Dialogue: 0,0:15:48.24,0:15:49.21,main,Anastasia,0000,0000,0000,,So late?
+Dialogue: 0,0:15:49.68,0:15:50.91,main,Taichi,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:50.91,0:15:54.56,main,Taichi,0000,0000,0000,,I mean, when I handed you over to the guild,
+Dialogue: 0,0:15:54.56,0:16:01.85,main,Taichi,0000,0000,0000,,I had this idea in my head that you'd be \Nable to live a normal, proper life from now on.
+Dialogue: 0,0:16:01.85,0:16:02.73,main,Anastasia,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:03.67,0:16:05.77,main,Taichi,0000,0000,0000,,So I have mixed feelings
+Dialogue: 0,0:16:05.77,0:16:10.49,main,,0000,0000,0000,,about the guild asking you to \Ndo all kinds of jobs like this.
+Dialogue: 0,0:16:10.49,0:16:13.53,main,Taichi,0000,0000,0000,,To be honest, it doesn't sit right with me.
+Dialogue: 0,0:16:14.86,0:16:18.24,main,Taichi,0000,0000,0000,,But that's just my ego talking.
+Dialogue: 0,0:16:18.24,0:16:20.04,main,Taichi,0000,0000,0000,,Let's go, Anastasia.
+Dialogue: 0,0:16:21.08,0:16:22.46,main,Anastasia,0000,0000,0000,,Call me Ana.
+Dialogue: 0,0:16:24.96,0:16:27.18,main,Anastasia,0000,0000,0000,,Anastasia's a mouthful, right?
+Dialogue: 0,0:16:27.88,0:16:29.75,main,Anastasia,0000,0000,0000,,Just call me Ana.
+Dialogue: 0,0:16:32.76,0:16:35.93,main,Taichi,0000,0000,0000,,Sure. Nice working with you, Ana.
+Dialogue: 0,0:16:41.80,0:16:43.98,main,Rin,0000,0000,0000,,Would you just stop getting in the way!
+Dialogue: 0,0:16:50.71,0:16:52.20,main,Grammy,0000,0000,0000,,That was fast.
+Dialogue: 0,0:16:52.92,0:16:54.40,main,Rin,0000,0000,0000,,Grammy!
+Dialogue: 0,0:16:54.40,0:16:59.02,main,Grammy,0000,0000,0000,,Don't worry, I don't plan \Non fighting you right now.
+Dialogue: 0,0:17:00.58,0:17:04.08,main,Grammy,0000,0000,0000,,The elf girl's in that building.
+Dialogue: 0,0:17:04.63,0:17:06.50,main,Rin,0000,0000,0000,,Why would you tell me that?
+Dialogue: 0,0:17:06.50,0:17:11.65,main,Grammy,0000,0000,0000,,For one thing, I didn't do that \Nunderhanded job because I wanted to.
+Dialogue: 0,0:17:11.65,0:17:15.60,main,Grammy,0000,0000,0000,,I mean, it's not really any of \Nmy business if anyone else dies,
+Dialogue: 0,0:17:15.60,0:17:18.14,main,,0000,0000,0000,,but you two are my prey.
+Dialogue: 0,0:17:18.14,0:17:21.06,main,Grammy,0000,0000,0000,,I can't have you dying on me.
+Dialogue: 0,0:17:22.02,0:17:23.93,main,Grammy,0000,0000,0000,,Now hurry up and go.
+Dialogue: 0,0:17:23.93,0:17:29.23,main,Grammy,0000,0000,0000,,My employer plans on using\Nthe Crimson Pact on that girl.
+Dialogue: 0,0:17:29.75,0:17:32.12,main,Rin,0000,0000,0000,,The Crimson Pact?
+Dialogue: 0,0:17:32.92,0:17:34.90,main,Grammy,0000,0000,0000,,You saw it, didn't you?
+Dialogue: 0,0:17:34.90,0:17:37.29,main,Grammy,0000,0000,0000,,That red monster.
+Dialogue: 0,0:17:40.41,0:17:42.35,main,Grammy,0000,0000,0000,,Get going.
+Dialogue: 0,0:17:42.35,0:17:47.42,main,Grammy,0000,0000,0000,,You should be able to take on every\N single person in there without issue.
+Dialogue: 0,0:17:48.47,0:17:50.34,main,Rin,0000,0000,0000,,Don't think I owe you for this!
+Dialogue: 0,0:18:00.71,0:18:02.49,main,Grammy,0000,0000,0000,,Don't lose, now.
+Dialogue: 0,0:18:17.72,0:18:18.92,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:18:19.53,0:18:20.84,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:18:24.88,0:18:27.56,main,Mage,0000,0000,0000,,Are you that elf's friend?
+Dialogue: 0,0:18:28.24,0:18:29.96,main,Rin,0000,0000,0000,,What are you doing to Myura?
+Dialogue: 0,0:18:29.96,0:18:32.40,main,Mage,0000,0000,0000,,The elf will be our sacrifice.
+Dialogue: 0,0:18:32.40,0:18:35.80,main,Mage,0000,0000,0000,,For the special ritual \Nwe're about to conduct.
+Dialogue: 0,0:18:36.26,0:18:38.33,main,Rin,0000,0000,0000,,What are you doing to Myura?
+Dialogue: 0,0:18:41.54,0:18:44.81,main,Rin,0000,0000,0000,,What are you doing to Myura?!
+Dialogue: 0,0:18:49.02,0:18:50.44,main,Rin,0000,0000,0000,,Don't move.
+Dialogue: 0,0:18:54.84,0:18:56.60,main,Rin,0000,0000,0000,,Would you mind staying put for me?
+Dialogue: 0,0:18:59.41,0:19:00.07,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:19:03.16,0:19:04.12,main,Myura,0000,0000,0000,,Rin?
+Dialogue: 0,0:19:04.97,0:19:07.08,main,Rin,0000,0000,0000,,Hold on, I'll save you!
+Dialogue: 0,0:19:07.68,0:19:08.95,italics,Rin,0000,0000,0000,,Can I break it?
+Dialogue: 0,0:19:10.04,0:19:11.27,italics,Rin,0000,0000,0000,,The floor's made of stone.
+Dialogue: 0,0:19:11.89,0:19:13.92,italics,Rin,0000,0000,0000,,So if I use earth magic...
+Dialogue: 0,0:19:27.06,0:19:28.28,main,Rin,0000,0000,0000,,Myura!
+Dialogue: 0,0:19:28.87,0:19:31.75,main,Myura,0000,0000,0000,,Rin, I'm sorry.
+Dialogue: 0,0:19:32.96,0:19:34.41,main,Myura,0000,0000,0000,,I let my guard down.
+Dialogue: 0,0:19:34.41,0:19:36.92,main,Rin,0000,0000,0000,,No, it's fine.
+Dialogue: 0,0:19:36.92,0:19:39.20,main,Rin,0000,0000,0000,,That doesn't matter now.
+Dialogue: 0,0:19:39.20,0:19:40.04,main,Myura,0000,0000,0000,,Rin...
+Dialogue: 0,0:19:40.04,0:19:42.20,main,Lodra,0000,0000,0000,,Wonderful.
+Dialogue: 0,0:19:42.20,0:19:45.18,main,Lodra,0000,0000,0000,,You disabled everyone without killing them?
+Dialogue: 0,0:19:45.18,0:19:49.83,main,Lodra,0000,0000,0000,,That's easy to talk about doing, \Nbut difficult to actually achieve.
+Dialogue: 0,0:19:52.28,0:19:53.42,main,Rin,0000,0000,0000,,You're...
+Dialogue: 0,0:19:54.00,0:19:58.89,main,Lodra,0000,0000,0000,,I'm amazed you so easily \Nexceeded my expectations.
+Dialogue: 0,0:19:58.89,0:20:02.89,main,Lodra,0000,0000,0000,,Cassim, it seems your subordinate \Nis awfully talented as well.
+Dialogue: 0,0:20:02.89,0:20:05.45,main,Lodra,0000,0000,0000,,She's discovered the loophole in her geas.
+Dialogue: 0,0:20:05.45,0:20:06.10,main,Cassim,0000,0000,0000,,Right...
+Dialogue: 0,0:20:06.48,0:20:08.75,main,Rin,0000,0000,0000,,Are you the one who did this?
+Dialogue: 0,0:20:08.75,0:20:10.09,main,Lodra,0000,0000,0000,,I am.
+Dialogue: 0,0:20:10.09,0:20:12.08,main,Lodra,0000,0000,0000,,Though they're the perpetrators,
+Dialogue: 0,0:20:12.08,0:20:16.33,main,,0000,0000,0000,,I'm the one who predicted this result \Nand worked to make it happen.
+Dialogue: 0,0:20:16.88,0:20:18.07,main,Rin,0000,0000,0000,,You'll pay!
+Dialogue: 0,0:20:18.07,0:20:19.64,main,Lodra,0000,0000,0000,,Wait a moment.
+Dialogue: 0,0:20:19.64,0:20:24.06,main,Lodra,0000,0000,0000,,I haven't shown myself for the sake of \Ndoing battle with you two.
+Dialogue: 0,0:20:24.06,0:20:26.33,main,Lodra,0000,0000,0000,,I came here to inform you.
+Dialogue: 0,0:20:26.33,0:20:27.85,main,Rin,0000,0000,0000,,Inform us?
+Dialogue: 0,0:20:27.85,0:20:29.24,main,Lodra,0000,0000,0000,,I'll keep this brief.
+Dialogue: 0,0:20:29.70,0:20:33.37,main,Lodra,0000,0000,0000,,An army of monsters will \Nbe attacking this town.
+Dialogue: 0,0:20:33.37,0:20:34.41,main,Rin,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:35.04,0:20:38.92,main,Lodra,0000,0000,0000,,They number two... no, three thousand.
+Dialogue: 0,0:20:39.44,0:20:42.34,main,Rin,0000,0000,0000,,Th-Three thousand?!
+Dialogue: 0,0:20:54.73,0:20:58.15,main,Lodra,0000,0000,0000,,Do you understand what that means?
+Dialogue: 0,0:20:58.61,0:21:04.24,main,Lodra,0000,0000,0000,,Yes, that's more than enough \Nto destroy everything.
+Dialogue: 0,0:21:04.84,0:21:09.16,main,Lodra,0000,0000,0000,,All that is precious to you. \NEverything and anything.
+Dialogue: 0,0:21:10.48,0:21:11.76,main,Rin,0000,0000,0000,,Taichi...
+Dialogue: 0,0:21:11.76,0:21:14.68,main,Cassim,0000,0000,0000,,Unfortunately, that boy won't be coming.
+Dialogue: 0,0:21:16.20,0:21:19.54,main,Cassim,0000,0000,0000,,We've prepared a different \Nstage for him in this town.
+Dialogue: 0,0:21:19.54,0:21:21.02,main,Rin,0000,0000,0000,,What do you mean?!
+Dialogue: 0,0:21:21.02,0:21:22.92,main,Rin,0000,0000,0000,,Taichi's here in Azpire?!
+Dialogue: 0,0:21:24.13,0:21:28.00,main,Lodra,0000,0000,0000,,Now then, what can the two of you do?
+Dialogue: 0,0:21:28.00,0:21:30.89,main,Lodra,0000,0000,0000,,How well can you protect this town?
+Dialogue: 0,0:21:31.75,0:21:33.72,main,Lodra,0000,0000,0000,,I look forward to finding out.
+Dialogue: 0,0:23:12.92,0:23:15.84,main,Anastasia,0000,0000,0000,,I'll check that one, too.
+Dialogue: 0,0:23:15.84,0:23:16.73,main,Taichi,0000,0000,0000,,Sure.
+Dialogue: 0,0:23:20.16,0:23:20.84,main,Anastasia,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:22.38,0:23:23.17,main,Taichi,0000,0000,0000,,Ana!
+Dialogue: 0,0:23:35.68,0:23:40.06,sign_33941_387_Magic_Training,Screen,0000,0000,0000,,{\fad(1690,1)}Defense of Azpire
+Dialogue: 0,0:23:36.32,0:23:39.06,main,Rin,0000,0000,0000,,Next episode: "Defense of Azpire."

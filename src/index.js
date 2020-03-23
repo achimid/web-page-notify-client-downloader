@@ -4,8 +4,9 @@ const SERVER_URL = process.env.SERVER_URL
 const DOWNLOAD_FOLDER = process.env.DOWNLOAD_FOLDER
 const ACCOUNT = process.env.ACCOUNT || 'client_download'
 
-const socket = require('socket.io-client')(SERVER_URL);
-const notifier = require('node-notifier');
+const socket = require('socket.io-client')(SERVER_URL)
+const notifier = require('node-notifier')
+const subtitle = require('./subtitle')
 
 const mv = require('mv');
 const rimraf = require("rimraf");
@@ -31,6 +32,7 @@ const startDownload = (magnetURI) => {
                 .then(onStartDownload)
                 .then(whenTorrentDone)
                 .then(onFinishDownload)
+                .then(translateMkvFile)
                 .then(moveFileFromFileSystem)
                 .then(removeTorrentFromClient)
                 .then(removeFileFromFileSystem)
@@ -91,6 +93,20 @@ const onFinishDownload = async (wrapObj) => {
     return Promise.resolve(wrapObj)
 }
 
+const translateMkvFile = async (wrapObj) => {
+    const path = wrapObj.torrent.path
+    const name = wrapObj.torrent.name.replace('.mkv', '.srt')
+    const input = `${path}/${name}`
+    const output = `${path}/${name}`
+
+    if (!wrapObj.torrent.name.endsWith('.mkv')) return Promise.resolve(wrapObj)
+
+    return subtitle.extractSubtitle(path)
+        .then(() => subtitle.translateFile(input, output))
+        .then(() => subtitle.joinSubtitle(path))
+        .then(() => wrapObj)
+}
+
 const stopProgressLog = async (wrapObj) => {
     clearInterval(wrapObj.progressLog);
     delete wrapObj.progressLog
@@ -117,10 +133,5 @@ function bytesToSize(bytes) {
     if (bytes == 0) return '0 Byte';
     var i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
     return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
-}
-    
-
-
-
-
+}   
 
