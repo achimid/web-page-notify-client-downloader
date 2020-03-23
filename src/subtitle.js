@@ -1,6 +1,7 @@
 const fs = require('fs')
 const translate = require('google-translate-open-api').default
 
+const SCRIPT_PATH = `${process.cwd()}/scripts`
 const SUBTITLE_PART = 9
 
 const REGEX_REMOVE = [
@@ -41,13 +42,13 @@ const getLastPart = (string) => {
     return ultimaPart
 }
 
-const extractSubtitle = async (path) => {
-    await require("child_process").execSync(`sh ${process.cwd()}/scripts/strExtract.sh ${path}`)
+const extractSubtitle = async (path) => {    
+    await require("child_process").execSync(`sh ${SCRIPT_PATH}/strExtract.sh ${path} ${SCRIPT_PATH}/bin`)
     return Promise.resolve()
 }
 
 const joinSubtitle = async (path) => {
-    await require("child_process").execSync(`sh ${process.cwd()}/scripts/strJoin.sh ${path}`)
+    await require("child_process").execSync(`sh ${SCRIPT_PATH}/strJoin.sh ${path} ${SCRIPT_PATH}/bin`)
     return Promise.resolve()
 }
 
@@ -93,8 +94,8 @@ const translateFile = async (inputFile, outputFile) => {
 // const output = `${path}/[HorribleSubs] Infinite Dendrogram - 10 [1080p].srt`
 
 // extractSubtitle(path)
-//     .then(() => translateFile(input, output))
-//     .then(() => joinSubtitle(path))
+//    .then(() => translateFile(input, output))
+//    .then(() => joinSubtitle(path))
 
 module.exports = {
     translateFile,
