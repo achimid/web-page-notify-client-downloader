@@ -42,17 +42,24 @@ const getLastPart = (string) => {
     return ultimaPart
 }
 
-const extractSubtitle = async (path) => {    
+const extractSubtitle = async (path) => {  
+    console.info('Executando script de de extração de legenda...')  
     await require("child_process").execSync(`sh ${SCRIPT_PATH}/strExtract.sh ${path} ${SCRIPT_PATH}/bin`)
+    console.info('Execução do script finalizada')
     return Promise.resolve()
 }
 
 const joinSubtitle = async (path) => {
+    console.info('Executando script de inclusão de legenda...')  
     await require("child_process").execSync(`sh ${SCRIPT_PATH}/strJoin.sh ${path} ${SCRIPT_PATH}/bin`)
+    console.info('Execução do script finalizada')
     return Promise.resolve()
 }
 
 const translateFile = async (inputFile, outputFile) => {
+
+    console.info('Começando Tradução da legenda...')
+
     const fileContent = fs.readFileSync(inputFile, 'utf8')
 
     const lines = fileContent.split('\n')
