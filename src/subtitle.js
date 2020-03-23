@@ -1,5 +1,5 @@
 const fs = require('fs')
-const translate = require('google-translate-open-api').default
+const translate = require('google-translate-open-api')
 
 const SCRIPT_PATH = `${process.cwd()}/scripts`
 const SUBTITLE_PART = 9
@@ -12,9 +12,11 @@ const REGEX_REMOVE = [
     {old: '</i>', neww: ''},
     {old: '<b>', neww: ''},
     {old: '</b>', neww: ''},
-    {old: '{\\an8}', neww: ''},
-    {old: '{\\fad(859,521)}', neww: ''},    
 ]
+
+const fixPontuation = (str) => {
+    return str.replace(/[&\/\\#,+()$~%.'":*?!<>{}]/g, '$& ').replace(/(\.\s){3}/g, '... ').replace(/\?\s\!\s/g, '?!').replace(/\!\s\?\s/g, '!?').replace(/\s{2}/g, ' ').replace(/\s+(?=[^{]*\})/g, "").trim()
+}
 
 const replaceEspecialChars = (d) => {
     let value = d
@@ -70,11 +72,13 @@ const translateFile = async (inputFile, outputFile) => {
         .map(getLastPart)
         .map(replaceEspecialChars)
 
-    let translations = await translate(dialogues, {tld: "cn", from: "en", to: "pt"})
+    let translations = await translate.default(dialogues, {tld: "cn", from: "en", to: "pt"})
+    
     translations = translations.data[0]
+    translations = translate.parseMultiple(translations).map(fixPontuation)
 
     const dialoguesMap = dialogues.map((original, index) => {
-        const translated = translations[index][0][0][0]
+        const translated = translations[index]
         const line = dialoguesLines[index]
         return {line, original, translated}
     })
