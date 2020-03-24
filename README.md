@@ -1,3 +1,3 @@
 # WebPageNotify Client Downloader
 
-Efetue o download do projeto, efetue a extração do arquivo .zip e execute utilizando o comando 'npm start'
+Client para rodar na maquina, fazer o download do torrent, e traduzir a legenda do arquivo mkv baixado.
