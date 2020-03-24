@@ -15,7 +15,7 @@ const REGEX_REMOVE = [
 ]
 
 const fixPontuation = (str) => {
-    return str.replace(/[&\/\\#,+()$~%.'":*?!<>{}]/g, '$& ').replace(/(\.\s){3}/g, '... ').replace(/\?\s\!\s/g, '?!').replace(/\!\s\?\s/g, '!?').replace(/\s{2}/g, ' ').replace(/\s+(?=[^{]*\})/g, "").trim()
+    return str.replace(/[&\/\\#,+()$~%.'":*?!<>{}]/g, '$& ').replace(/(\.\s){3}/g, '... ').replace(/\?\s\!\s/g, '?! ').replace(/\!\s\?\s/g, '!? ').replace(/\s{2}/g, ' ').replace(/\s+(?=[^{]*\})/g, "").trim()
 }
 
 const replaceEspecialChars = (d) => {
@@ -58,45 +58,67 @@ const joinSubtitle = async (path) => {
     return Promise.resolve()
 }
 
+const readSubtitleFile = (inputFile) => {
+    console.info('Lendo arquivo de legenda...')
+
+    const fileContent = fs.readFileSync(inputFile, 'utf8')
+    const lines = fileContent.split('\n')
+    return lines
+}
+
+const getSSADialogues = (lines) => {
+    
+    const dialoguesLines = lines.filter(l => l.indexOf('Dialogue') == 0)
+    const dialogues = dialoguesLines.map(getLastPart).map(replaceEspecialChars)
+    
+    return {dialoguesLines, dialogues}
+}
+
+const translateEnToPt = async (dialogues) => {
+    const options = {tld: "cn", from: "en", to: "pt"}
+    const translationResponse = await translate.default(dialogues, options)
+    const content = translationResponse.data[0]
+    const translations = translate.parseMultiple(content)
+    const fixedTranslations = translations.map(fixPontuation)
+
+    return fixedTranslations 
+}
+
+const writeSubtitleFile = (lines, outputFile) => {
+    fs.writeFileSync(outputFile, lines.join('\n'))    
+}
+
+const getEditedFileContent = (lines, dialoguesMap) => {
+    return lines.map(line => {
+        const finded = dialoguesMap.filter(m => m.line === line)
+        const hasLineTranslated = finded.length > 0
+
+        if (!hasLineTranslated) return line
+        
+        const firstTranslation = finded[0]
+        return replaceLastPart(firstTranslation.translated, firstTranslation.line)
+    })
+}
+
 const translateFile = async (inputFile, outputFile) => {
 
     console.info('Começando Tradução da legenda...')
 
-    const fileContent = fs.readFileSync(inputFile, 'utf8')
-
-    const lines = fileContent.split('\n')
-
-    const dialoguesLines = lines.filter(l => l.indexOf('Dialogue') == 0)
+    const lines = readSubtitleFile(inputFile)
+    const {dialoguesLines, dialogues} = getSSADialogues(lines)
+    const translations = await translateEnToPt(dialogues)
     
-    const dialogues = dialoguesLines
-        .map(getLastPart)
-        .map(replaceEspecialChars)
-
-    let translations = await translate.default(dialogues, {tld: "cn", from: "en", to: "pt"})
-    
-    translations = translations.data[0]
-    translations = translate.parseMultiple(translations).map(fixPontuation)
-
     const dialoguesMap = dialogues.map((original, index) => {
         const translated = translations[index]
         const line = dialoguesLines[index]
         return {line, original, translated}
     })
 
-    for (let index = 0; index < lines.length; index++) {
-        const line = lines[index]
-        
-        const finded = dialoguesMap.filter(m => m.line === line)
-        const hasLine = finded.length > 0
-        
-        if (hasLine) {
-            const map = finded[0]
-            lines[index] = replaceLastPart(map.translated, map.line)
-        }
-    }
+    const editedLines = getEditedFileContent(lines, dialoguesMap)    
 
-    const output = lines.join('\n')
-    fs.writeFileSync(outputFile, output)    
+    console.log(editedLines)
+
+    writeSubtitleFile(editedLines, outputFile)
 
 }
 
@@ -107,6 +129,8 @@ const translateFile = async (inputFile, outputFile) => {
 // extractSubtitle(path)
 //    .then(() => translateFile(input, output))
 //    .then(() => joinSubtitle(path))
+
+// translateFile('str.str', 'str-br.str')
 
 module.exports = {
     translateFile,
