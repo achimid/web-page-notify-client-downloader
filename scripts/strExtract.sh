@@ -18,7 +18,7 @@ fi
 find "$DIR" -type f -name '*.mkv' | while read filename
 do
   # Find out which tracks contain the subtitles
-  "$BIN"mkvmerge -i "$filename" | grep 'subtitles' | while read subline
+  mkvmerge -i "$filename" | grep 'subtitles' | while read subline
   do
     # Grep the number of the subtitle track
     tracknumber=`echo $subline | egrep -o "[0-9]{1,2}" | head -1`
@@ -27,7 +27,7 @@ do
     subtitlename=${filename%.*}
 
     # Extract the track to a .tmp file
-    "$BIN"mkvextract tracks "$filename" $tracknumber:"$subtitlename.srt.tmp" > /dev/null 2>&1
+    mkvextract tracks "$filename" $tracknumber:"$subtitlename.srt.tmp" > /dev/null 2>&1
     chmod g+rw "$subtitlename.srt.tmp"
 
     mv "$subtitlename.srt.tmp" "$subtitlename.srt" > /dev/null 2>&1

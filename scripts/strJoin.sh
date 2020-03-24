@@ -25,13 +25,13 @@ do
 	mv "$subtitlename.mkv" "$subtitlename.tmp.mkv" > /dev/null 2>&1 
 
 	# Add subtitle in a new file 
-	"$BIN"mkvmerge -o "$subtitlename.mkv" "$subtitlename.tmp.mkv" --language 0:pt "$subtitlename.srt" 
+	mkvmerge -o "$subtitlename.mkv" "$subtitlename.tmp.mkv" --language 0:pt "$subtitlename.srt" 
 
 	# Change Permissions file
 	chmod g+rw "$subtitlename.mkv" 
 
 	# Makes new subtitle as default
-	"$BIN"mkvpropedit "$subtitlename.mkv" --edit track:s1 --set flag-default=0 --edit track:s2 --set flag-default=1
+	mkvpropedit "$subtitlename.mkv" --edit track:s1 --set flag-default=0 --edit track:s2 --set flag-default=1
 
 	# Remove original file
 	rm "$subtitlename.tmp.mkv"

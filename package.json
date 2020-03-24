@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "apt-get update; apt-get install mkvtoolnix;"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
