@@ -25,6 +25,13 @@ socket.on(ACCOUNT, (data) => startDownload(data.url))
 const startDownload = (magnetURI) => {
     if (!magnetURI) return
     
+    const inProgress = client.torrents.filter(({xt}) => magnetURI.indexOf(xt) >= 0).length > 0
+
+    if (inProgress) {
+        console.info('MagnetLink Duplicado, ignorando...')
+        return
+    }
+
     try {
         client.add(magnetURI, (torrent) => {
             const obj = { client, torrent, pathNew: DOWNLOAD_FOLDER }
