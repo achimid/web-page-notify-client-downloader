@@ -4,10 +4,9 @@ const SERVER_URL = process.env.SERVER_URL
 const DOWNLOAD_FOLDER = process.env.DOWNLOAD_FOLDER
 const ACCOUNT = process.env.ACCOUNT || 'client_download'
 
-const socket = require('socket.io-client')(SERVER_URL)
+const socket = require('socket.io-client')(SERVER_URL, { transports: ['websocket'] })
 const notifier = require('node-notifier')
 const subtitle = require('./subtitle')
-const startServer = require('./server')
 
 const mv = require('mv');
 const rimraf = require("rimraf");
